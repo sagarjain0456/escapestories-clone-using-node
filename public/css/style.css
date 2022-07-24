@@ -1,0 +1,3408 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* body{
+  background-color: black;
+} */
+
+
+
+#checkbox2{
+  display:none;
+}
+
+
+#checkbox3{
+  display:none;
+}
+
+
+#checkbox4{
+  display:none;
+}
+
+
+#checkbox5{
+  display:none;
+}
+
+#checkbox6{
+  display:none;
+}
+
+
+
+
+/* starting of the slideshow1 */
+
+#contact{
+  /* border:  0.3vw solid black; */
+  display: inline-block;
+  float: right;
+  display:flex;
+    align-items:  center;
+}
+
+#phone{
+  height:3vw;
+  width:3vw;
+}
+
+
+#contact h1{
+  display: inline-block;
+
+font-size: 3vw;
+}
+
+
+#slideshow1{
+  overflow:auto;
+  /* height:auto; */
+  width:100%;
+  height:40vw;
+  background-color: pink;
+
+}
+
+#shoejog{
+  height: 18vw;
+  width: 18vw;
+
+
+}
+
+#run{
+  height: 18vw;
+  width: 18vw;
+float:right;
+
+  /* margin:0px 60px 10px 60px; */
+}
+
+
+
+#cycle{
+  height: 18vw;
+  width: 18vw;
+  /* margin:auto; */
+
+  margin-left: 30%;
+
+}
+
+#slideshow1img{
+  display: inline-block;
+  float:right;
+  /* border:  0.3vw solid black; */
+  /* height: 100%; */
+  width:40%;
+  margin:0% 5% 0% 5%;
+  height:40vw;
+
+}
+
+#slideshow1text{
+
+  display: inline-block;
+    /* border:  0.3vw solid black; */
+    text-align: center;
+    margin:5%;
+     color:brown;
+    font-family: 'Kaushan Script', cursive;
+    /* font-size: 2.5vw; */
+    width:40%;
+    /* margin: auto; */
+}
+
+
+#slideshow1text h1{
+  font-size: 5.5vw;
+}
+
+#slideshow1text h2{
+  font-size: 3vw;
+  float:left;
+  margin-left: 5%;
+
+
+}
+
+
+
+#cyclepic{
+  height:100%;
+  width:100%;
+}
+
+
+/* ending of the slideshow1 */
+
+
+/* starting of the second slideshow (starting of the slideshow2) */
+
+#slideshow2{
+  width:100%;
+overflow: auto;
+  /* background-color: green; */
+  height:44vw;
+
+}
+
+#pedalslogo{
+  height:10vw;
+  width:10vw;
+  float:left;
+}
+
+#slideshow2text{
+  /* border:  0.3vw solid black; */
+    width:35vw;
+    height: 20vw;
+    display: inline-block;
+ /* margin:20px; */
+ margin-top: 2%;
+ margin-left: 1%;
+ color: white;
+
+}
+
+#slideshow2text h2{
+  font-size: 1.3vw;
+  margin-left: 7%;
+}
+
+#slideshow2text h1{
+  font-size: 5vw;
+}
+
+
+#cycle2{
+  height: 44vw;
+  width: 30vw;
+  float: right;
+  margin-right: 5%;
+}
+
+
+#slideshow2text2{
+  display: inline-block;
+  /* border:  0.3vw solid black; */
+   margin-left: 5%;
+   margin-top: 2%;
+     font-size: 1.06vw;
+     color: white;
+}
+
+
+
+#slideshowtext3{
+   display: inline-block;
+   /* border:  0.3vw solid black; */
+   /* margin-top: 3%;
+   margin-left: 10%;
+   margin-bottom: 2%; */
+   color: white;
+   /* background-color: blue; */
+   font-size: 1.1vw;
+   /* width:33%; */
+   width:auto;
+   height:7vw;
+   margin-left: 10%;
+   margin-top: 1vw;
+   padding: 1%;
+
+}
+
+
+#arrowtext{
+  display: flex;
+  /* border: 0.3vw solid black; */
+  margin-top: 3%;
+  height: 10vw;
+}
+
+
+
+#arrow{
+  height:10vw;
+  width:10vw;
+  margin-left: 7%;
+  /* float: left; */
+  display:inline-block;
+}
+
+
+
+ .darkgreen {
+  position: absolute;
+
+  height: 44vw;
+      width: 63vw;
+      background-color:  #82b74b;
+      opacity: 1;
+      transform: skew(30deg, 0) translateX(-50%);
+      z-index: -1;
+    }
+
+
+
+    .green {
+      position: absolute;
+       left:33.9%;
+      height: 44vw;
+          width: 4vw;
+          background-color: green;
+          opacity: 0.5;
+          transform: skew(30deg, 0) translateX(-50%);
+          z-index: -2;
+        }
+
+
+        .grey {
+          position: absolute;
+           left:91%;
+          height: 44vw;
+              width: 111vw;
+              background-color: grey;
+              opacity: 0.5;
+              transform: skew(30deg, 0) translateX(-50%);
+              z-index: -2;
+            }
+
+
+
+
+
+   #leftarrow{
+     height:10vw;
+     width:10vw;
+     position: absolute;
+     right: 5%;
+     margin-top:-2%;
+   }
+
+
+
+
+
+   #contact2{
+     /* border:  0.3vw solid black; */
+     display: inline-block;
+     float: right;
+     display:flex;
+       align-items:  center;
+       float: left;
+       margin-left: 2%;
+   }
+
+   #phone2{
+     height:3vw;
+     width:3vw;
+   }
+
+
+   #contact2 h1{
+     display: inline-block;
+
+   font-size: 3vw;
+   }
+
+
+
+
+   .fade {
+     animation-name: fade;
+     animation-duration: 1.5s;
+   }
+
+   @keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+   }
+
+/* ending of the second slideshow (ending of the slideshow2) */
+
+
+
+
+/* starting of the third slide show */
+
+
+
+
+ /* .shade1 {
+
+  position: absolute;
+  height: 44vw;
+      width: 63vw;
+      background-color:  red;
+      opacity: 1;
+      transform: skew(30deg, 0) translateX(-50%);
+      z-index: -4;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+#daysmore{
+  /* border:  0.3vw solid black; */
+  /* background-color: blue; */
+}
+
+
+#days{
+  font-size: 2.5vw;
+}
+
+
+#more{
+  font-size: 1.3vw;
+}
+
+
+#kmcover{
+
+    /* border:  0.3vw solid black; */
+    color: brown;
+}
+
+#kmcover2{                 /* erase*/
+  display: none;
+}
+
+
+#slideshow3{
+    overflow:auto;
+  height:44vw;
+  width:100%;
+  background-color: pink;
+}
+
+
+
+#running2{
+  width:100vw;
+  height:44vw;
+  opacity:0.5;
+  position: absolute;
+
+}
+
+
+
+
+#slideshow3text{
+
+  /* display: inline-block; */
+    /* border:  0.3vw solid black; */
+    text-align: center;
+    margin:0%;
+     color:brown;
+    font-family: 'Kaushan Script', cursive;
+    /* font-size: 2.5vw; */
+    width:43%;
+    height: 42vw;
+    /* margin: auto; */
+}
+
+
+
+#slideshow3text h1{
+  font-size: 4.5vw;
+    /* text-align: center; */
+}
+
+
+
+#km{
+  font-size: 1.6vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1.3vw;
+  color: brown;
+
+}
+
+
+#th{
+  font-size: 1.6vw;
+  margin-bottom: 2vw;
+  background-color: white;
+  display: inline-block;
+  padding:0.1vw;
+    /* border:  0.3vw solid black; */
+    /* text-align: center; */
+    /* margin-left: 16vw; */
+    /* display: flex; */
+}
+
+
+
+#registrations{
+  display: inline-block;
+  font-size: 1.6vw;
+  /* float: left; */
+  margin-right: 15vw;
+  /* border:  0.3vw solid black; */
+  text-align: left;
+}
+
+
+
+
+#contact3{
+  /* border:  0.3vw solid black; */
+  display: inline-block;
+  float: right;
+  display:flex;
+    align-items:  center;
+    float: left;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+#phone3{
+  height:2.2vw;
+  width:2vw;
+}
+
+
+#contact3 h1{
+  display: inline-block;
+
+font-size: 2.2vw;
+}
+
+
+#rewards{
+  display:none;
+}
+
+
+
+#prize{
+  display: none;
+}
+
+
+#alert{
+  display: none;
+}
+/* ending of the third slideshow */
+
+
+
+
+
+/* starting of the fourth slideshow */
+
+
+#slideshow4{
+  background-color: blue;
+  height: 44vw;
+  width: 100vw;
+  position:relative;
+
+}
+
+
+
+#logodate4{
+    /* border: 0.3vw solid black; */
+    display: inline-block;
+  display: flex;
+  align-items:center;
+}
+
+
+
+#pedalslogo4{
+  height: 13vw;
+  width: 13vw;
+  clip-path: circle( 40%);
+  background-color: white;
+}
+
+
+
+#date4{
+  color:white;
+  padding-left: 7vw;
+  padding-top: 3vw;
+  font-size: 2vw;
+
+}
+
+
+#dayskm4{
+  width:50vw;
+  margin-top: 0.3vw;
+  display: inline-block;
+  /* border: 0.3vw solid black; */
+  margin-left: 7vw;
+  text-align: center;
+  /* padding:2vw; */
+}
+
+
+#days4{
+  color: yellow;
+  font-size: 5vw;
+
+
+}
+
+
+#days4part2{
+  color: yellow;
+    font-size: 5vw;
+
+}
+
+
+#km4{
+  color: white;
+  padding-top: 1vw;
+    font-size: 2vw;
+    text-align: left;
+    padding-left: 2.5vw;
+}
+
+
+
+
+#walk{
+  border-radius: 50%;
+  width:35vw;
+  height: 35vw;
+  position: absolute;
+  right:0vw;
+  top:3vw;
+  right:3vw;
+}
+
+
+
+
+
+
+#phone4{
+  height:5vw;
+  width:5vw;
+}
+
+
+#contact4{
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  /* border: 0.3vw solid black; */
+  padding-left: 4vw;
+}
+
+
+
+#number4{
+  color: white;
+  font-size: 2vw;
+}
+
+
+
+#registrations4{
+  position: absolute;
+  bottom:1vw;
+  left: 35vw;
+  color:white;
+  font-size: 1vw;
+  /* border: 0.3vw solid black; */
+}
+
+
+#dayschallenge3{
+  background-color: orange;
+  width:100%;
+  text-align: center;
+  height:9vw;
+  color:black;
+ padding-top: 2vw;
+}
+
+#daysposter3{
+  font-size: 2vw;
+}
+
+
+
+#challengeposter3{
+  font-size: 2vw;
+}
+
+#julyposter3{
+  background-color: pink;
+  color:black;
+  font-size: 1.5vw;
+  height:2vw;
+  width:100%;
+   text-align: center;
+   display: block;
+}
+
+
+
+/* #kmbigcoverpost3{
+width:100%;
+background-color: BLUE;
+} */
+
+
+#kmcoverposter3{
+  background-color: orange;
+  color:brown;
+  width:100%;
+  /* height:8vw; */
+
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 1vw;
+  display:inline-block;
+  font-size: 1.5vw;
+  /* white-space: nowrap; */
+
+}
+
+
+#km1post3{
+font-size: 1.5vw;
+}
+
+
+#km2post3{
+font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+#rewardspost3{
+  background-color: lightpink;
+  color:black;
+  font-size: 2vw;
+   text-align: center;
+}
+
+
+
+
+
+#prizepost3{
+  width:100%;
+  height:10vw;
+  background-color: orange;
+  color:brown;
+  padding-top: 2vw;
+
+}
+
+
+#prize1post3{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#circle1poster3{
+  height:0.5vw;
+  width:0.5vw;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left: 1.5vw;
+}
+
+#certificatepost3{
+    font-size: 1.3vw;
+  padding-left: 0.9vw;
+}
+
+
+
+
+
+
+#prize2post3{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#circle2poster3{
+  height:0.5vw;
+  width:0.5vw;
+  border-radius: 50%;
+  background-color: brown;
+
+  margin-left: 1.5vw;
+}
+
+#medalpost3{
+  font-size: 1.3vw;
+  padding-left: 0.9vw;
+}
+
+
+
+
+
+#prize3post3{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#circle3poster3{
+  height:0.5vw;
+  width:0.5vw;
+  border-radius: 50%;
+  background-color: brown;
+
+  margin-left: 1.5vw;
+}
+
+#tshirtpost3{
+  font-size: 1.3vw;
+  padding-left: 0.9vw;
+}
+
+/* ending of the fourth slideshow */
+
+
+
+
+
+/* starting of the poster1 */
+
+
+#textimage1{
+  display: flex;
+  width:100%;
+  background-color: yellow;
+  /* border: 0.4vw solid black; */
+  z-index: 1;
+  position:relative;
+  height:60vw;
+}
+
+
+
+#rightposter1{
+  height:48vw;
+  width:48vw;
+  /* border:0.4vw solid orange; */
+  /* background-color: orange; */
+  /* display: inline-block; */
+   margin-left: 3vw;
+   margin-right: 1vw;
+   position: relative;
+}
+
+
+
+#lefttext1{
+ margin-top: 15vw;
+ margin-left: 2vw;
+   /* border: 0.4vw solid black; */
+   height: 30vw;
+   width:39vw;
+
+
+}
+
+
+
+
+#challenge{
+  font-size: 2.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+#hurry2{
+  font-size: 1.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+
+
+
+
+
+
+
+
+#duration{
+  font-size: 1.2vw;
+}
+
+#distance{
+  font-size: 1.2vw;
+}
+
+
+ #km3{
+  padding-left: 1.5vw;
+}
+
+
+#btn1{
+  background-color: white;
+  /* border-color: purple; */
+  border: 0.15vw solid purple;
+  border-radius: 13%;
+  margin-left: 1vw;
+  margin-top: 2.5vw;
+  padding-top:0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  font-size: 1vw;
+}
+
+
+
+
+#circle {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#circletext{
+  display: flex;
+  align-items: center;
+  margin-top: 2vw;
+  margin-left: 1.5vw;
+}
+
+
+
+
+#circle2 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#circletext2{
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  margin-left: 1.5vw;
+}
+
+
+
+
+
+#circle3 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#circletext3{
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  margin-left: 1.5vw;
+}
+
+
+
+
+#complete{
+  margin-left: 0.8vw;
+  font-size: 1.3vw;
+}
+
+
+
+#duration{
+  margin-left: 0.8vw;
+  font-size: 1.3vw;
+}
+
+
+
+
+#distance{
+  margin-left: 0.8vw;
+  font-size: 1.3vw;
+}
+
+
+
+
+#pedalslogo2{
+  height:8vw;
+  width:8vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+
+#leftarrow2{
+  height:10vw;
+  width:10vw;
+  margin-top: -1vw;
+  float: right;
+}
+
+
+#poster1text{
+  /* border:0.3vw solid black; */
+  color:white;
+  /* position: absolute; */
+}
+
+
+
+#text1{
+  font-size: 2vw;
+  padding-left: 5vw;
+}
+
+
+#text2{
+  font-size: 5.4vw;
+    padding-left: 3vw;
+}
+
+
+#text3{
+  font-size: 1.5vw;
+  padding-left: 5vw;
+}
+
+
+#arrowregister2{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  margin-top: 1vw;
+  height:10vw;
+}
+
+#rightarrow2{
+  height:10vw;
+  width:10vw;
+}
+
+
+#registrations2{
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  width:25vw;
+  height: 5vw;
+  /* padding:0.4vw; */
+  margin-top: 1vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  font-size: 1vw;
+}
+
+
+#contact5{
+  display:flex;
+  /* border:0.2vw solid black; */
+  padding-left: 3vw;
+  align-items: center;
+}
+
+
+#phone5{
+  height:3vw;
+  width:3vw;
+
+}
+
+
+#number5{
+  color: white;
+  padding-left: 1vw;
+  font-size: 2vw;
+}
+
+
+
+#cycletwo{
+  position: absolute;
+  height:48vw;
+  width:25vw;
+  z-index: -1;
+  top:0;
+  right:0;
+  float: right;
+}
+
+
+
+.green2{
+  height:48vw;
+  width:30vw;
+  background-color: green;
+  position: absolute;
+  opacity: 1;
+  z-index: -1;
+  border-top: 3vw;
+
+}
+
+
+
+/* .green2 {
+	border-bottom: 30vw solid green;
+	border-left: 20vw solid transparent;
+	border-right: 30vw solid transparent;
+	height:0;
+	width: 30vw;
+  position: absolute;
+  opacity: 1;
+  z-index: -1;
+
+} */
+
+/* .green2 {
+	border-bottom: 70vw solid #555;
+	border-left: 0vw solid transparent;
+	border-right: 30vw solid transparent;
+	height: 0;
+	width: 30vw;
+  background-color: green;
+  position: absolute;
+  opacity: 1;
+  z-index: -1;
+} */
+
+
+
+
+
+/*
+   .green2 {
+     position: absolute;
+      left:33.9%;
+     height: 44vw;
+         width: 4vw;
+         background-color: green;
+         opacity: 0.5;
+         transform: skew(30deg, 0) translateX(-50%);
+         z-index: -2;
+       } */
+
+
+
+/* ending of the poster1 */
+
+
+
+
+/* starting of the second poster and text   */
+
+#secondposter{
+   background-color: #f7cac9;
+   height: 55vw;
+  width:100%;
+  /* border: 0.2vw solid black; */
+  display: flex;
+  margin-top: 1vw;
+}
+
+
+
+#leftimagetext2{
+  height:44vw;
+  width:50vw;
+  /* background-color: lightblue; */
+  margin-left: 2vw;
+  margin-top: 6vw;
+    position: relative;
+    display: inline-block;
+}
+
+
+#daysmoreposter2{
+  /* display: inline-block; */
+  display: block;
+  /* border: 0.3vw solid black; */
+    /* width:25vw; */
+    width:100%;
+    text-align: center;
+    height: 20%;
+    background-color: grey;
+  padding-top:1vw;
+  padding-bottom: 1vw
+
+
+}
+
+#daysposter2{
+  /* display: inline-block; */
+  font-size: 2vw;
+
+
+}
+
+
+
+#moreposter2{
+  /* display: inline-block; */
+  font-size: 0.8vw;
+  color: brown;
+
+}
+
+#julyposter2{
+  color: black;
+  font-size: 1.5vw;
+  /* border: 0.2vw solid black; */
+  background-color: lightgrey;
+  /* display: inline-block; */
+  width:100%;
+  height:3vw;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  /* padding-top: 0.5vw; */
+
+}
+
+#leftsidefortext{
+  /* border:0.3vw solid black; */
+  width:50%;
+  height:44vw;
+  display: inline-block;
+}
+
+
+#kmcoverposter2{
+  background-color: grey;
+  color:brown;
+  width:100%;
+  /* border: 0.2vw solid black; */
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  height: 8vw;
+  width:100%;
+}
+
+
+
+#kmposter2{
+  font-size: 1.5vw;
+}
+
+
+#km2poster2{
+  font-size: 1.5vw;
+}
+
+
+
+#rewardsposter2{
+  color:black;
+  background-color: lightgrey;
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  width:100%;
+  height:3vw;
+}
+
+
+#prizeposter2{
+  background-color: grey;
+  color: brown;
+  font-size: 1.5vw;
+  padding: 1vw;
+  width:100%;
+  height:8vw;
+}
+
+#alertposter2{
+  background-color: white;
+  color: black;
+  font-size: 0.7vw;
+  text-align: center;
+}
+
+
+#contactposter2{
+  background-color: grey;
+  color:brown;
+  font-size: 1vw;
+  /* border: 0.4vw solid black; */
+  display: flex;
+  align-items:center;
+  height: 8.3vw;
+  width:100%;
+  padding-left: 2vw;
+}
+
+
+#phoneposter2{
+  height: 3vw;
+  width:3vw;
+}
+
+
+
+#running2poster2{
+  width: 50%;
+  height:44vw;
+  display: inline-block;
+  position: absolute;
+  top:0vw;
+  right:0vw;
+  object-fit:cover;
+}
+
+
+
+
+
+
+#righttext2{
+  /* background-color: pink; */
+  height:44vw;
+  width:50%;
+  display: inline-block;
+  margin-left: 5%;
+
+}
+
+
+
+#post2text{
+  margin-top: 10vw;
+}
+
+
+#challengepost2{
+  font-size: 4vw;
+}
+
+#hurrypost2{
+  font-size: 2.2vw;
+}
+
+
+
+#circletextpost2{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 2vw;
+  /* border: 0.3vw solid black;- */
+  width:60%;
+}
+
+
+#circlepost2 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#completepost2{
+  margin-left: 1vw;
+}
+
+
+
+
+  #circletext2post2{
+    display: flex;
+    align-items:center;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    /* border: 0.3vw solid black; */
+    width:60%;
+  }
+
+
+  #circle2post2 {
+    display: inline-block;
+      width: 0.5vw;
+      height: 0.5vw;
+      background: black;
+      border-radius: 50%
+    }
+
+
+#durationpost2{
+  margin-left: 1vw;
+}
+
+
+
+
+
+
+#circletext3post2{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 1vw;
+  /* border: 0.3vw solid black; */
+  width:60%;
+}
+
+
+#circle3post2 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#distancepost2{
+margin-left: 1vw;
+}
+
+
+
+#btn2{
+  font-size: 1vw;
+  border-radius: 15%;
+  border-color: purple;
+  background-color: white;
+  color: black;
+  height:3vw;
+  width:7vw;
+  margin-left: 3vw;
+  margin-top: 3vw;
+ }
+/* ending of the second poster and text   */
+
+
+
+
+
+
+/* starting of the poster 3 */
+
+
+#poster3{
+  height:55vw;
+  width:100%;
+  background-color: yellow;
+  display: flex;
+}
+
+
+
+
+#lefttextposter3{
+  height:50vw;
+  width:40%;
+  /* background-color: blue; */
+  margin-left: 5%;
+  margin-top: 2vw;
+}
+
+
+
+#righttextimageposter3{
+  height:50vw;
+  width:40%;
+  background-color: pink;
+  margin-left: 5%;
+  margin-top: 2vw;
+  /* position: relative; */
+  display: flex;
+}
+
+
+
+
+#challengepost3{
+  font-size: 2vw;
+  padding-left: 1vw;
+}
+
+
+
+#lefttextposter3innerbox{
+  /* border: 0.3vw solid black; */
+  margin-top: 15vw;
+  /* padding-left: 5vw; */
+  height:25vw;
+}
+
+
+
+
+
+#circletextpost3{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 2vw;
+  /* border: 0.3vw solid black; */
+  width:100%;
+  padding-right: 9vw;
+  padding-left: 1.2vw;
+}
+
+
+#circlepost3 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#completepost3{
+  margin-left: 1vw;
+}
+
+
+
+
+   #circletext2post3{
+    display: flex;
+    align-items:center;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    /* border: 0.3vw solid black; */
+    width:100%;
+    padding-left: 1.2vw;
+  }
+
+
+  #circle2post3 {
+    display: inline-block;
+      width: 0.5vw;
+      height: 0.5vw;
+      background: black;
+      border-radius: 50%
+    }
+
+
+#durationpost3{
+  margin-left: 1vw;
+}
+
+
+
+
+
+
+#circletext3post3{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 1vw;
+  /* border: 0.3vw solid black; */
+  width:100%;
+  padding-left: 1.2vw;
+}
+
+
+#circle3post3 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#distancepost3{
+margin-left: 1vw;
+}
+
+
+
+
+#girlrun{
+  height:50vw;
+  width:20vw;
+  object-fit: cover;
+}
+
+
+
+
+
+
+#rightsidetext{
+  background-color: red;
+  height:50vw;
+  width:20vw;
+}
+
+
+
+#alertpost3{
+  height:8vw;
+  width:100%;
+  background-color: lightpink;
+  color: black;
+  padding-top: 1.5vw;
+}
+
+
+#hurrypost3{
+  font-size:  1.5vw;
+  text-align: center;
+}
+
+
+#registerpost3{
+  font-size:  1.5vw;
+  text-align: center;
+}
+
+
+#julypost3{
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+
+#contactpost3{
+  width:100%;
+  height: 11.2vw;
+  background-color: orange;
+  color: brown;
+  display: flex;
+  align-items: center;
+}
+
+
+
+#phonepost3{
+  width:2vw;
+  height:2vw;
+  margin-left: 0.3vw;
+}
+
+
+
+#numberpost3{
+  padding-left: 0.5vw;
+  font-size: 1.5vw;
+}
+
+#pedalslogopost3{
+  width:6vw;
+  height:6vw;
+  margin-left: 2vw;
+}
+
+
+
+#btnpost3{
+  background-color: white;
+  border: 0.15vw solid purple;
+  border-radius: 13%;
+  margin-left: 0.5vw;
+   margin-top: 2.5vw;
+  padding-top:0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  font-size: 1vw;
+
+}
+/* ending of the poster 3 */
+
+
+
+
+
+/* starting of the footer */
+#footer{
+  background-color: black;
+  height:auto;
+  width:100%;
+  padding-bottom: 5vw;
+  /* display:flex;
+  bottom:0px; */
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+#abouth1{
+  font-size: 24px;
+  color: white;
+  margin-left: 2vw;
+  padding-top: 4vw;
+    /* border:0.3vw solid orange; */
+    margin-bottom: 0.5vw;
+    width:40vw;
+    display: inline-block;
+}
+
+
+#communityfooter{
+  color:white;
+  font-size: 20px;
+  margin-left: 2vw;
+  /* padding-top: 2vw; */
+    /* border:0.3vw solid orange; */
+    width:45vw;
+    /* display: inline-block; */
+}
+
+#footerlinks{
+  margin-left: 2vw;
+  padding-top: 1vw;
+  /* border:0.3vw solid orange; */
+  display:inline-block;
+  font-size: 16px;
+  margin-top: 0.5vw;
+}
+
+
+#termsfooter{
+  padding-left: 1.5vw;
+}
+
+
+#privacyfooter{
+  padding-left: 1.5vw;
+}
+
+
+#tipsfooter{
+  padding-left: 1.5vw;
+}
+
+#copyrightfooter{
+  color:green;
+  font-size: 18px;
+  margin-left: 2vw;
+  padding-top: 1.5vw;
+    /* border:0.3vw solid orange; */
+    margin-top: 0.5vw;
+    width:45vw;
+}
+
+
+
+
+
+
+
+#rightfooter{
+  /* border:0.3vw solid orange; */
+  width:300px;
+  margin-top: 20px;
+  height:230px;
+  position: absolute;
+  top:35px;
+  right:0px;
+
+}
+
+#instafooter{
+  height:50px;
+  width:50px;
+  border-radius: 10px;
+}
+
+#fbfooter{
+  height:50px;
+  width:50px;
+  margin-left: 10px;
+    border-radius: 10px;
+}
+
+#whatsapp{
+  height:50px;
+  width:50px;
+  margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+#rightsocial2{
+  display:flex;
+  align-items: center;
+  margin-top:20px;
+}
+
+
+#mailfooter{
+  width:25px;
+  height:25px;
+}
+
+#hellopedals{
+  color:white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+
+
+#rightsocial3{
+display: flex;
+margin-top: 20px;
+}
+
+
+
+#callfooter{
+  width:25px;
+  height:25px;
+}
+
+
+#numberfooter{
+  color:white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+
+
+
+#rightsocial4{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#mapfooter{
+  width:25px;
+  height:25px;
+}
+
+#placefooter{
+  color:white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+/* ending of the footer */
+
+
+
+
+
+
+
+
+html{
+  height: 100vh;
+}
+#joinusbtn{
+  /* display: inline-block; */
+  display: none;
+  height:50px;
+  width:200px;
+  background-color: white;
+  position: absolute;
+  top:50px;
+  right: 280px;
+  border-radius: 10px;
+  /* padding: 50px; */
+}
+
+.joinus{
+
+  color: black;
+  margin-top: 0px;
+  margin-left: 10px;
+  display:inline-block;
+}
+
+.communityabovediv:hover #joinusbtn {display: inline-block; z-index: 1}
+#joinusbtn:hover {background-color: #82b74b;}
+
+
+#treksitems{
+  /* display:flex; */
+  display:none;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:380px;
+}
+
+
+.trekabovediv:hover #treksitems {display: flex; z-index: 1}
+#treksitems a:hover {background-color: #82b74b;}
+
+
+
+
+
+
+
+
+#pastitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:460px;
+}
+
+
+.pastabovediv:hover #pastitems {display: flex; z-index: 1}
+#pastitems a:hover {background-color: #82b74b;}
+
+
+
+
+
+
+#upcomingitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:600px;
+}
+
+.upcomingabovediv:hover #upcomingitems {display: flex; z-index: 1}
+#upcomingitems a:hover {background-color: #82b74b;}
+
+
+
+
+
+
+
+
+
+#pedalsitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:720px;
+}
+
+.pedalsabovediv:hover #pedalsitems {display: flex; z-index: 1}
+#pedalsitems a:hover {background-color: #82b74b;}
+
+
+
+#menu{
+  display:none;
+}
+
+/* body{
+  background-color: orange;
+} */
+
+.escapelogostyle{
+  height:100px;
+  width: 100px;
+}
+
+.login{
+  height:20px;
+  width: 20px;
+}
+
+.search{
+  height:20px;
+  width: 20px;
+}
+
+#cart{
+  height:20px;
+  width: 20px;
+}
+
+#my-checkbox{
+  display:none;
+}
+
+#menu{
+  cursor: pointer;
+}
+
+#bar1{
+  width: 20px;
+  height:2px;
+  background-color: black;
+  position: absolute;
+  top:20px;
+  left: 20px;
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transition-delay: 0s;
+  z-index: 21;
+}
+
+#bar2{
+  width: 20px;
+  height:2.5px;
+  background-color: black;
+  position: absolute;
+  top:30px;
+  left: 20px;
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transition-delay: 0s;
+  z-index: 22;
+}
+
+.topbar{
+  display: flex;
+  /* border:  0.3vw solid black; */
+  height:60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navitems {
+  /* border:  0.3vw solid orange; */
+  height: 50px;
+  /* background-color: red; */
+}
+
+#navitems a {
+   padding: 15px;
+   display: inline-block;
+   /* display: none; */
+   color: black;
+}
+
+.rightlogos img{
+   margin: 10px;
+}
+
+.find{
+  color: red;
+  visibility: hidden;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1241px) {
+  body {
+    /* background-color: lightblue; */
+  }
+
+  .topbar{
+    height:120px;
+  }
+
+
+
+  #joinusbtn{
+    top:110px;
+    right: 480px;
+  }
+
+
+
+  #treksitems{
+    right:150px;
+  }
+
+
+  #pastitems{
+    right:220px;
+  }
+
+
+  #upcomingitems{
+    right:360px;
+  }
+
+
+
+  #pedalsitems{
+    right:500px;
+  }
+
+#navitems {
+  /* border:  0.3vw solid orange; */
+  width: 800px;
+  height: 90px;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 1149px) {
+  body {
+    /* background-color: red; */
+  }
+
+
+  #treksitems{
+    right:580px;
+  }
+
+
+
+  #navitems {
+    /* border:  0.3vw solid black; */
+    width: 700px;
+    height: 90px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    /* background-color: brown; */
+  }
+
+
+
+  #joinusbtn{
+    top:110px;
+    right: 300px;
+  }
+
+
+
+  #treksitems{
+    right:400px;
+  }
+
+
+
+  #pastitems{
+    right:500px;
+  }
+
+
+  #upcomingitems{
+    right:200px;
+  }
+
+
+
+  #pedalsitems{
+    right:300px;
+  }
+
+
+  #navitems {
+    /* border:  0.3vw solid black; */
+    width: 550px;
+    height: 90px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 908px) {
+body{
+  /* background-color: purple; */
+}
+
+
+
+
+
+
+#joinusbtn{
+  top:110px;
+  right: 140px;
+}
+
+
+ #treksitems{
+  right:240px;
+}
+
+
+
+#pastitems{
+  right:340px;
+}
+
+
+#upcomingitems{
+  right:460px;
+}
+
+
+
+#pedalsitems{
+  right:200px;
+}
+
+
+
+
+
+
+
+#navitems {
+  /* border:  0.3vw solid black; */
+  width: 450px;
+  height: 90px;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width:790px) {
+body{
+  /* background-color: green; */
+}
+
+
+#joinusbtn{
+  top:140px;
+  right: 260px;
+}
+
+
+ #treksitems{
+  right:150px;
+}
+
+
+
+#pastitems{
+  right:230px;
+}
+
+
+#upcomingitems{
+  right:370px;
+}
+
+
+
+#pedalsitems{
+  right:140px;
+}
+
+
+
+
+.topbar{
+  height:170px;
+}
+
+#navitems {
+  /* border:  0.3vw solid black; */
+  width: 400px;
+  height: 140px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.escapelogo img{
+  margin-top: 10px;
+}
+
+.rightlogos{
+  margin-top: 0px;
+}
+}
+
+@media only screen and (max-width:766px) {
+  body{
+    /* background-color: yellow; */
+    position: relative;
+  }
+
+#navitems{
+  /* border:  0.3vw solid green  ; */
+  width: 80%;
+  text-align: center;
+  position: fixed;
+  top:0px;
+  margin-top: 0px;
+  padding-top: 100px;
+  left:-500%;
+  background :black;
+  /* color: red; */    /*no response*/
+  height: 100vh;
+  overflow: scroll;
+  z-index: 20;
+
+
+}
+
+#navitems a{
+  display: block;
+  text-align: left;
+}
+
+
+#navitems .yo{
+  color: white;
+}
+
+
+
+#joinusbtn{
+  /* top:110px;
+  right: 140px; */
+  color: black;
+}
+
+
+
+
+
+
+
+.topbar{
+   display: flex;
+  /* border:  0.3vw solid black; */
+  height:60px;
+ justify-content: center;
+  align-items: center;
+}
+
+.login{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  top:11px;
+  right:50px;
+}
+
+.search{
+  height:20px;
+  width: 20px;
+  display: none;
+}
+
+#cart{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  right:5px;
+  top:12px;
+}
+
+#menu{
+  display:block;
+}
+
+.find{
+  color: red;
+  visibility: visible;
+  position: absolute;
+  top: 500px;
+  left: 0px;
+}
+
+.community{
+  position: absolute;
+  /* top:500px; */
+   top:445px;
+}
+
+.treks{
+  position: absolute;
+  /* top:450px; */
+  top: 395px;
+}
+
+.past{
+  position: absolute;
+  /* top:400px; */
+  top:345px;
+   /* overflow: scroll; */
+}
+
+.upcoming{
+  position: absolute;
+  /* top:350px; */
+  top:290px;
+}
+
+.pedals{
+  position: absolute;
+  top:245px;
+  /* top:500px; */
+}
+
+.my{
+  position: absolute;
+  top:200px;
+}
+
+#checkbox2{
+  display:none;
+}
+#pedalsitems{
+
+    /* display:  none !important; */
+    visibility: hidden;
+}
+
+#upcomingitems{
+  visibility: hidden;
+}
+
+#pastitems{
+  visibility: hidden;
+}
+
+
+
+#treksitems{
+  visibility: hidden;
+}
+
+
+
+#joinusbtn{
+  visibility: hidden;
+}
+
+/* starting of the slideshow2 */
+#slideshow2{
+  position: relative;
+}
+
+#slideshow2text{
+margin-top: 10%;
+width:84vw;
+height:50vw;
+}
+
+
+
+#slideshow2text h2{
+  font-size: 3.3vw;
+  margin-left: 7%;
+}
+
+#slideshow2text h1{
+  font-size: 13vw;
+}
+
+
+
+#slideshow2{
+  height:90vw;
+}
+
+.grey{
+  height:90vw;
+}
+
+.darkgreen{
+  height:90vw;
+}
+
+.green{
+  height: 90vw;
+}
+
+ #cycle2{
+position:absolute;
+z-index: -1;
+width:50vw;
+right:0px;
+margin-right: 0px;
+  height: 90vw;
+}
+
+
+
+
+
+#arrowtext{
+margin-top: 5vw;
+align-items: center;
+display: flex;
+align-items: center;
+}
+
+
+
+
+
+
+#slideshow2text2{
+  font-size: 2.4vw;
+  margin-left: 14%;
+}
+
+/* ending of the slideshow2 */
+
+
+#slideshow3{
+  height: 90vw;
+}
+
+#running2{
+  height:90vw;
+}
+
+#slideshow3text{
+  height:90vw;
+}
+
+
+#daysmore{
+  background-color: grey;
+  height:20vw;
+    /* border:  0.3vw solid black; */
+}
+
+
+#more{
+margin-top: 1vw;
+
+}
+
+
+#registrations{
+  display: none;
+}
+
+
+/* #contact3{
+  display: none;
+} */
+
+
+#slideshow3text{
+  position: relative;
+}
+
+
+/*
+#kmcover{
+  display: inline-block;
+  background-color: green;
+  color:brown;
+  width:80%;
+  margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#km{
+  font-size: 2.7vw;
+  top:25vw;
+  color: brown;
+} */
+
+
+#kmcover{
+  display: none;
+}
+
+
+
+#kmcover2{
+  display:inline-block;
+  background-color: grey;
+  color:brown;
+  width:100%;
+  position: absolute;
+  top:24vw;
+  left:0vw;
+  height:17vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#km2{
+
+  font-size: 2.5vw;
+
+}
+
+
+
+
+
+
+#th{
+  position: absolute;
+  top:18vw;
+  left:0vw;
+  background-color: lightgrey;
+  color: black;
+  width:100%;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  /* padding-right: 10%; */
+}
+
+
+ #rewards{
+
+  display: inline-block;
+  width:100%;
+  height:6%;
+  background-color: lightgrey;
+  color:black;
+  font-size: 3vw;
+  position: absolute;
+  top:40vw;
+  left:0vw;
+}
+
+
+
+
+#prize{
+  display: inline-block;
+  width:100%;
+  height:18%;
+  background: brown;
+  background-color: grey;
+  /* float:left; */
+  font-size: 2vw;
+  /* padding-top: 1vw; */
+  position: absolute;
+  top:45vw;
+  left:0vw;
+  text-align: left;
+  padding-left: 4vw;
+  align-items: center;
+  padding-top: 2.2vw;
+
+}
+
+
+
+
+
+
+#alert{
+  display: inline-block;
+  width: 100%;
+  height: 13%;
+  background-color: lightgrey;
+  color:black;
+  text-align: center;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 61vw;
+  left:0vw;
+}
+
+
+
+
+#contact3{
+  display: inline-block;
+  background-color: grey;
+  color: brown;
+  position: absolute;
+  top:69vw;
+  left:-12%;
+  width:100%;
+  height:17vw;
+  text-align:left;
+  padding-top: 7vw;
+  padding-left: 3vw;
+}
+
+
+#phone3{
+  height:5vw;
+  width:5vw;
+}
+
+
+#contact3center{
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* #slideshow4{
+  display: none;
+} */
+
+
+/* starting of the footer mobile media */
+
+#rightfooter{
+  position: relative;
+}
+
+
+
+#abouth1{
+  width:90vw;
+    margin-left: 20px;
+}
+
+
+#communityfooter{
+  width:85vw;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+
+
+
+#copyrightfooter{
+  width:90vw;
+  font-size: 14px;
+  margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+#footerlinks{
+  margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#rightfooter{
+  margin-left: 20px;
+}
+
+
+#instafooter{
+  width:40px;
+  height:40px;
+}
+
+
+#fbfooter{
+  width:40px;
+  height:40px;
+}
+
+
+#whatsapp{
+  width:40px;
+  height:40px;
+}
+
+
+#mailfooter{
+  height:20px;
+  width:20px;
+}
+
+
+
+#callfooter{
+  height:20px;
+  width:20px;
+}
+
+
+
+
+#whatsappfooter{
+  height:20px;
+  width:20px;
+}
+
+
+
+
+#textimage1{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height:150vw;
+  background-color: white;
+}
+
+
+#rightposter1{
+  margin-top:15vw;
+
+}
+
+
+
+#challenge{
+  font-size: 5.5vw;
+  position:absolute;
+  /* border:0.7vw solid orange; */
+  width:60vw;
+  top:5vw;
+  left:25vw;
+}
+
+
+#hurry2{
+  /* border:0.7vw solid orange; */
+  font-size: 3.5vw;
+  width:57vw;
+  position: absolute;
+  left:9vw;
+  bottom:60vw;
+}
+
+#circletext{
+  /* border:0.7vw solid orange; */
+  width:57vw;
+  position: absolute;
+  left:8vw;
+  bottom:46vw;
+}
+
+#circle{
+  width:2.5vw;
+  height:1.5vw;
+}
+
+
+
+
+#complete{
+  font-size: 3.5vw;
+}
+
+
+
+
+
+
+#circletext2 {
+    /* border: 0.7vw solid orange; */
+    position: absolute;
+    left: 8vw;
+    bottom: 40vw;
+    width: 52vw;
+}
+
+
+
+
+#circle2 {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
+
+
+
+#duration {
+    font-size: 3.5vw;
+}
+
+
+#circletext3 {
+    /* border: 0.7vw solid orange; */
+    position: absolute;
+    bottom: 30vw;
+    left: 8vw;
+    width: 63vw;
+}
+
+
+
+
+#circle3 {
+    width: 2.5vw;
+    height: 1.5vw;
+}
+
+
+
+
+#distance {
+    font-size: 3.5vw;
+}
+
+
+
+#rightposter1{
+  height:58vw;
+  width:78vw;
+  margin-top: -12vw;
+}
+
+
+.green2{
+  height:58vw;
+  width:40vw;
+}
+
+#cycletwo{
+  height:58vw;
+  width:39vw;
+}
+
+#contact5{
+  position: absolute;
+  bottom:2vw;
+  left:2vw;
+}
+
+
+#arrowregister2 {
+    margin-top: 9vw;
+    margin-left: 3vw;
+}
+
+
+#text3 {
+    font-size: 2.5vw;
+    position: absolute;
+    bottom: 17vw;
+}
+
+
+
+#text2 {
+    width: 41vw;
+}
+
+
+
+#btn1 {
+    margin-left: -25vw;
+    margin-top: 33.5vw;
+    padding-top: 2.3vw;
+    padding-bottom: 4.6vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    font-size: 3vw;
+    width: 23vw;
+    height: 8vw;
+}
+
+
+#rightarrow2 {
+    /* height: 10vw; */
+    width: 20vw;
+  }
+
+
+
+/* second poster mobile responsive */
+
+#secondposter{
+  height:190vw;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+}
+
+
+
+#leftimagetext2{
+  /* border:0.6vw solid black; */
+  width:83vw;
+  height:75vw;
+margin-top:16vw;
+}
+
+
+#daysmoreposter2{
+  height:30%;
+}
+
+
+#daysposter2{
+  font-size: 3vw;
+}
+
+
+#moreposter2{
+  font-size: 1.8vw;
+}
+
+
+#julyposter2{
+  height:5vw;
+  font-size: 2.8vw;
+}
+
+
+
+#kmcoverposter2{
+  height:10vw;
+}
+
+
+#kmposter2{
+  font-size: 2.5vw;
+}
+
+
+
+
+#km2poster2{
+  font-size: 2.5vw;
+}
+
+
+
+#rewardsposter2{
+  height: 5vw;
+  font-size: 3vw;
+}
+
+
+
+#prizeposter2{
+  height: 15vw;
+  font-size: 3vw;
+}
+
+
+#alertposter2{
+  font-size: 1.3vw;
+}
+
+
+#contactposter2{
+  height: 16.3vw;
+  font-size: 2vw;
+}
+
+
+
+#phoneposter2{
+  height: 5vw;
+  width:5vw;
+}
+
+
+#running2poster2{
+  height:74vw;
+}
+
+
+
+#challengepost2{
+  position:absolute;
+   top:2vw;
+   left:22vw;
+   /* border:0.7vw solid black; */
+   width:63vw;
+   font-size: 6vw;
+}
+
+
+
+#hurrypost2{
+  font-size: 4.2vw;
+  /* border:0.7vw solid black; */
+  position:absolute;
+  bottom: 80vw;
+left: 8vw;
+width: 57vw;
+}
+
+
+
+
+
+
+#circletextpost2 {
+    font-size: 4.1vw;
+    margin-top: 2vw;
+    width: 64%;
+    left: 9vw;
+    bottom: 60vw;
+    /* border: 0.7vw solid black; */
+    position: absolute;
+}
+
+
+
+
+
+
+#circletext2post2 {
+    font-size: 4.1vw;
+    /* border: 0.7vw solid black; */
+    width: 60%;
+    position: absolute;
+    bottom: 50vw;
+    left: 9vw;
+}
+
+
+
+#circletext3post2 {
+    font-size: 4.1vw;
+    margin-top: 1vw;
+    /* border: 0.7vw solid black; */
+    width: 72%;
+    position: absolute;
+    bottom: 35vw;
+    left: 9vw;
+}
+
+
+
+
+
+#btn2 {
+    font-size: 4vw;
+    border-color: black;
+    color: black;
+    height: 12vw;
+    width: 33vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    position: absolute;
+    bottom: 11vw;
+    left: 2vw;
+}
+
+
+
+
+#poster3 {
+    height: 190vw;
+    width: 100%;
+    background-color: yellow;
+    flex-direction: column-reverse;
+    position: relative;
+    align-items: center;
+}
+
+
+
+
+
+#rightsidetext {
+    height: 51vw;
+    width: 45vw;
+}
+
+
+#girlrun {
+    height: 95vw;
+    width: 35vw;
+    object-fit: cover;
+}
+
+
+
+#righttextimageposter3 {
+    height: 78vw;
+    width: 80%;
+    position: absolute;
+    top: 20vw;
+}
+
+
+
+
+#dayschallenge3{
+  height: 14vw;
+}
+
+
+
+
+
+#daysposter3 {
+    font-size: 4vw;
+}
+
+
+#challengeposter3 {
+    font-size: 4vw;
+}
+
+
+
+#julyposter3{
+ height:6vw;
+ font-size: 3.5vw;
+ display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+#kmcoverposter3{
+  height:13vw;
+}
+
+
+
+#km1post3 {
+    font-size: 3.5vw;
+}
+
+#km2post3 {
+    font-size: 3.5vw;
+}
+
+
+#rewardspost3{
+  height:7vw;
+  font-size: 5vw;
+}
+
+
+#prizepost3{
+  height:20vw;
+}
+
+
+
+#certificatepost3 {
+    font-size: 3.5vw;
+}
+
+
+#medalpost3 {
+    font-size: 3.5vw;
+}
+
+
+
+#tshirtpost3 {
+    font-size: 3.5vw;
+}
+
+
+
+#circle1poster3 {
+    height: 1vw;
+    width: 1vw;
+}
+
+
+#circle2poster3 {
+    height: 1vw;
+    width: 1vw;
+}
+
+
+
+#circle3poster3 {
+    height: 1vw;
+    width: 1vw;
+}
+
+
+
+#alertpost3{
+  height:20vw;
+}
+
+
+#hurrypost3 {
+    font-size: 3.5vw;
+}
+
+
+
+#registerpost3 {
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+
+
+#julypost3 {
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+
+
+#contactpost3{
+  height:15vw;
+}
+
+
+#phonepost3 {
+    width: 6vw;
+    height: 6vw;
+}
+
+
+
+#numberpost3 {
+    font-size: 4.5vw;
+}
+
+
+
+#pedalslogopost3 {
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+
+#challengepost3 {
+    font-size: 6vw;
+    /* border: 0.8vw solid black; */
+    width: 60vw;
+    position: absolute;
+    top: 5vw;
+    left: 22vw;
+}
+
+
+
+
+#circlepost3 {
+    width: 2vw;
+    height: 1.3vw;
+}
+
+
+#circletextpost3 {
+    font-size: 4.1vw;
+    padding-right: 9vw;
+    padding-left: 1.2vw;
+    /* border: 0.8vw solid black; */
+    width: 90vw;
+    position: absolute;
+    bottom: 55vw;
+    left: 8vw;
+}
+
+
+
+
+
+#circletext2post3 {
+    font-size: 4.1vw;
+    /* border: 0.8vw solid black; */
+    position: absolute;
+    bottom: 45vw;
+    width: 90vw;
+    left: 8vw;
+}
+
+
+
+
+#circle2post3 {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+
+#circletext3post3 {
+    font-size: 4.1vw;
+    position: absolute;
+    /* border: 0.8vw solid black; */
+    bottom: 30vw;
+    left: 8vw;
+    width: 80vw;
+}
+
+
+#circle3post3 {
+    width: 2vw;
+    height: 1.4vw;
+}
+
+
+
+
+#btnpost3 {
+    border: 0.15vw solid black;
+    margin-left: 0.5vw;
+    margin-top: 2.5vw;
+    padding-top: 3.6vw;
+    padding-bottom: 4.6vw;
+    padding-left: 5.2vw;
+    padding-right: 5.2vw;
+    font-size: 5vw;
+    position: absolute;
+    bottom: 7vw;
+    left: 5vw;
+}
+
+
+
+
+
+#circlepost2 {
+    width: 2.2vw;
+    height: 1.3vw;
+}
+
+
+
+#circle2post2 {
+    width: 1.2vw;
+    height: 1.3vw;
+}
+
+
+
+#circle3post2 {
+    width: 2.2vw;
+    height: 1.3vw;
+}
