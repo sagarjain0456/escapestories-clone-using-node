@@ -9,6 +9,106 @@
   background-color: black;
 } */
 
+#contactu{
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+
+#formdiv{
+  border:0.3vw solid orange;
+  background-color: pink;
+  height:28vw;
+  width:30vw;
+  position: relative;
+  margin-left: 5vw;
+  margin-top: 5vw;
+  float:right;
+}
+
+
+#name{
+  width:24vw;
+  height:4vw;
+  display:block;
+  background-color: white;
+  color:black;
+  margin-left: 2vw;
+  border-radius: 0.3vw;
+  padding:1vw;
+  margin-top: 1vw;
+}
+
+
+
+#email{
+  width:14vw;
+  margin-left: 2vw;
+  margin-top: 0.1vw;
+  border-radius: 0.3vw;
+    height:4vw;
+    padding:1vw;
+}
+
+
+#mobile{
+  width:9.5vw;
+  border-radius: 0.3vw;
+    height:4vw;
+    padding:1vw;
+    margin-top: 0.1vw;
+}
+
+
+#address{
+resize:vertical;
+width:23.7vw;
+margin-left: 2vw;
+margin-top: 0.1vw;
+  padding:0.4vw;
+    border-radius: 0.3vw;
+    height:4vw;
+
+
+}
+
+
+#pincode{
+  width:24vw;
+  height:4vw;
+  display:block;
+  background-color: white;
+  color:black;
+  margin-left: 2vw;
+  border-radius: 0.3vw;
+  padding:1vw;
+  margin-top: -0.2vw;
+
+}
+
+
+
+#city{
+  width:14vw;
+  margin-left: 2vw;
+margin-top: 0.1vw;
+  border-radius: 0.3vw;
+    height:4vw;
+    padding:1vw;
+
+}
+
+
+
+#state{
+  width:9.5vw;
+  border-radius: 0.3vw;
+    height:4vw;
+    padding:1vw;
+      margin-top: 0.1vw;
+}
+
 
 
 #checkbox2{
