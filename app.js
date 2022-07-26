@@ -21,22 +21,24 @@ state: String
 });
 
 
+
+//creating the model
 const Booking = mongoose.model("Booking", bookingSchema); // name of the collection, name of the schema
 
 // Now we will create the document using the above model
 
-const booking = new Booking ({
-  name: "Unique jain",
-  email: "jainunique1@gmail.com",
-  mobile: "9711476776",
-  address: "flat-no:K907, HCBS Sports Ville Apartments, Sohna",
-  pincode: 122103,
-  city: "Gurgaon",
-  state: "Haryana"
-});
+// const booking = new Booking ({
+//   name: "Unique jain",
+//   email: "jainunique1@gmail.com",
+//   mobile: "9711476776",
+//   address: "flat-no:K907, HCBS Sports Ville Apartments, Sohna",
+//   pincode: 122103,
+//   city: "Gurgaon",
+//   state: "Haryana"
+// });
 
 
-booking.save();
+// booking.save();
 
 
 
@@ -50,30 +52,40 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function (req,res){
-  res.sendfile(__dirname +"/index.html");
+  res.sendFile(__dirname +"/index.html");
 });
 
 
 app.get("/bookingform.html", function(req,res){
-  res.sendfile(__dirname + "/bookingform.html");
+  res.sendFile(__dirname + "/bookingform.html");
 });
 
 
 app.post("/", function(req,res){
-var name = req.body.fullname;
-var email = req.body.email;
-var mobile = req.body.mobile;
-var address = req.body.address;
-var pincode = req.body.pincode;
-var city = req.body.city;
-var state= req.body.state;
-console.log(name);
-console.log(email);
-console.log(mobile);
-console.log(address);
-console.log(pincode);
-console.log(city);
-console.log(state);
+
+const newBooking = new Booking ({
+   name:req.body.fullname,
+   email: req.body.email,
+   mobile: req.body.mobile,
+   address: req.body.address,
+   pincode: req.body.pincode,
+  city: req.body.city,
+ state: req.body.state
+
+});
+
+newBooking.save(function(err){
+
+  if(err){
+    console.log(err);
+  }
+
+  else{
+    res.sendFile(__dirname + "/aftersubmit.html");
+  }
+
+});
+
 
 })
 
