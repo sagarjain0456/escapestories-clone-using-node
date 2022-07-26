@@ -9,6 +9,9 @@
   background-color: black;
 } */
 
+
+
+
 #contactu{
   font-size: 1.5vw;
   margin-top: 2vw;
@@ -19,7 +22,7 @@
 #formdiv{
   border:0.3vw solid orange;
   background-color: pink;
-  height:28vw;
+  height:70vh;
   width:30vw;
   position: relative;
   margin-left: 5vw;
@@ -30,7 +33,7 @@
 
 #name{
   width:24vw;
-  height:4vw;
+  height:8vh;
   display:block;
   background-color: white;
   color:black;
@@ -47,7 +50,7 @@
   margin-left: 2vw;
   margin-top: 0.1vw;
   border-radius: 0.3vw;
-    height:4vw;
+    height:8vh;
     padding:1vw;
 }
 
@@ -55,7 +58,7 @@
 #mobile{
   width:9.5vw;
   border-radius: 0.3vw;
-    height:4vw;
+    height:8vh;
     padding:1vw;
     margin-top: 0.1vw;
 }
@@ -68,7 +71,7 @@ margin-left: 2vw;
 margin-top: 0.1vw;
   padding:0.4vw;
     border-radius: 0.3vw;
-    height:4vw;
+    height:8vh;
 
 
 }
@@ -76,7 +79,7 @@ margin-top: 0.1vw;
 
 #pincode{
   width:24vw;
-  height:4vw;
+  height:8vh;
   display:block;
   background-color: white;
   color:black;
@@ -94,7 +97,7 @@ margin-top: 0.1vw;
   margin-left: 2vw;
 margin-top: 0.1vw;
   border-radius: 0.3vw;
-    height:4vw;
+    height:8vh;
     padding:1vw;
 
 }
@@ -104,10 +107,26 @@ margin-top: 0.1vw;
 #state{
   width:9.5vw;
   border-radius: 0.3vw;
-    height:4vw;
+    height:8vh;
     padding:1vw;
       margin-top: 0.1vw;
 }
+
+
+
+#btnform{
+  display:block;
+  height:3vw;
+  font-size: 1.5vw;
+  width:6vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  border-radius: 0.6vw;
+  cursor:pointer;
+}
+
+
+
 
 
 
@@ -2214,6 +2233,146 @@ html{
   }
 
 
+  #btnform{
+    /* display:block; */
+    height:4vw;
+    font-size: 2vw;
+    width:8vw;
+     margin-top: 4vw;
+  /*  margin-left: 2vw;
+    border-radius: 0.6vw;
+    cursor:pointer; */
+  }
+
+
+
+  #contactu{
+    font-size: 2.5vw;
+    /* color:yellow; */
+    /* margin-top: 2vw;
+    margin-left: 2vw; */
+  }
+
+
+  #formdiv{
+    /* border:0.3vw solid orange;
+    background-color: pink;
+    height:70vh; */
+    width:100vw;
+    /* position: relative;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    float:right; */
+  }
+
+
+  #name{
+    width:90vw;
+    /* height:8vh;
+    display:block;
+    background-color: white;
+    color:black;
+    margin-left: 2vw;
+    border-radius: 0.3vw;
+    padding:1vw;
+    margin-top: 1vw; */
+  }
+
+
+
+   #email{
+    width:60vw;
+    /* margin-left: 2vw;
+    margin-top: 0.1vw;
+    border-radius: 0.3vw;
+      height:8vh;
+      padding:1vw; */
+  }
+
+
+  #mobile{
+    width:30vw;
+    /* border-radius: 0.3vw;
+      height:8vh;
+      padding:1vw;
+      margin-top: 0.1vw; */
+  }
+
+
+  #address{
+  /* resize:vertical; */
+  width:90vw;
+  /* margin-left: 2vw;
+  margin-top: 0.1vw;
+    padding:0.4vw;
+      border-radius: 0.3vw;
+      height:8vh; */
+
+
+  }
+
+
+
+
+
+
+  #pincode{
+    width:90vw;
+    /* height:8vh;
+    display:block;
+    background-color: white;
+    color:black;
+    margin-left: 2vw;
+    border-radius: 0.3vw;
+    padding:1vw;
+    margin-top: -0.2vw; */
+
+  }
+
+
+
+  #city{
+    width:60vw;
+    /* margin-left: 2vw;
+  margin-top: 0.1vw;
+    border-radius: 0.3vw;
+      height:8vh;
+      padding:1vw; */
+
+  }
+
+
+
+  #state{
+    width:30vw;
+    /* border-radius: 0.3vw;
+      height:8vh;
+      padding:1vw;
+        margin-top: 0.1vw; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   #joinusbtn{
     top:110px;
@@ -2306,6 +2465,27 @@ body{
 @media only screen and (max-width:790px) {
 body{
   /* background-color: green; */
+}
+
+
+#btnform{
+  /* display:block; */
+  height:6vw;
+   font-size: 2vw;
+  width:10vw;
+   margin-top: 4vw;
+  /*margin-left: 2vw;
+  border-radius: 0.6vw;
+  cursor:pointer; */
+}
+
+
+
+#contactu{
+  font-size: 3.5vw;
+  /* color:red; */
+  /* margin-top: 2vw;
+  margin-left: 2vw; */
 }
 
 
@@ -3505,4 +3685,93 @@ justify-content: center;
 #circle3post2 {
     width: 2.2vw;
     height: 1.3vw;
+}
+
+
+
+
+
+@media only screen and (max-width:590px) {
+
+#contactu{
+  font-size: 4.5vw;
+  /* color:green; */
+}
+
+
+
+
+#btnform{
+  /* display:block; */
+  height:6vw;
+  font-size: 3vw;
+  width:13vw;
+  margin-top: 7vw;
+  margin-left: 2vw;
+  /* border-radius: 0.6vw;
+  cursor:pointer; */
+}
+
+#formdiv{
+  /* border:0.3vw solid orange; */
+  /* background-color: pink; */
+  height:64vh;
+  /* width:30vw;
+  position: relative;
+  margin-left: 5vw;
+  margin-top: 5vw; */
+  /* float:right; */
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+#contactu{
+  font-size: 7vw;
+}
+
+
+#btnform{
+  /* display:block; */
+  height:9vw;
+  font-size: 2.5vw;
+  width:15vw;
+  /* margin-top: 2vw;
+  margin-left: 2vw; */
+  border-radius: 1.6vw;
+  /* cursor:pointer;  */
+}
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:370px) {
+
+#contactu{
+  font-size: 9vw;
+}
+
+
+
+#btnform{
+height:14vw;
+width:25vw;
+font-size: 5vw;
+
+
+}
+
 }
