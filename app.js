@@ -47,6 +47,8 @@ const Booking = mongoose.model("Booking", bookingSchema); // name of the collect
 
 
 const app = express();
+// app.use("view engine", "ejs");
+
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
@@ -59,6 +61,14 @@ app.get("/", function (req,res){
 app.get("/bookingform.html", function(req,res){
   res.sendFile(__dirname + "/bookingform.html");
 });
+
+
+
+app.get("/about.html", function(req,res){
+  res.sendFile(__dirname + "/about.html");
+});
+
+
 
 
 app.post("/", function(req,res){

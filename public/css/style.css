@@ -2168,6 +2168,38 @@ margin-left: 0.5vw;
   position: absolute;
 }
 
+
+#block1{
+  border:0.6vw solid orange;
+  display:flex;
+  /* height:80vh; */
+}
+
+
+#block1text{
+  border: 0.2vw solid purple;
+  width:30vw;
+   margin-left: 10vw;
+}
+
+
+
+
+#FitNchill{
+  border: 0.2vw solid purple;
+  width:25vw;
+  height:13vw;
+ margin-left: 20vw;
+ margin-top: 7vw;
+
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 1241px) {
   body {
     /* background-color: lightblue; */
@@ -2425,6 +2457,15 @@ body{
 
 
 
+#FitNchill{
+  /* border: 0.2vw solid purple; */
+  width:35vw;
+  height:16vw;
+ /* margin-left: 20vw; */
+ margin-top: 15vw;
+
+}
+
 
 
 
@@ -2475,16 +2516,9 @@ body{
 }
 
 
-#btnform{
-  /* display:block; */
-  height:6vw;
-   font-size: 2vw;
-  width:10vw;
-   margin-top: 4vw;
-  /*margin-left: 2vw;
-  border-radius: 0.6vw;
-  cursor:pointer; */
-}
+
+
+
 
 
 
@@ -2552,6 +2586,72 @@ body{
     /* background-color: yellow; */
     position: relative;
   }
+
+
+
+
+
+  #block1{
+    /* border:0.6vw solid orange; */
+    display:flex;
+    flex-direction: column-reverse;
+
+
+    /* height:80vh; */
+  }
+
+
+
+
+  #FitNchill{
+    /* border: 0.2vw solid purple; */
+    width:35vw;
+    height:17vw;
+   /* margin-left: 35vw; */
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1vw;
+
+  }
+
+
+
+
+
+  #block1text{
+    /* border: 0.2vw solid purple; */
+    width:80vw;
+    margin-top: 5vw;
+     /* margin-left: 10vw; */
+  }
+
+
+
+
+
+  #btnform{
+    /* display:block; */
+    height:6vw;
+     font-size: 2vw;
+    width:10vw;
+     margin-top: 4vw;
+    /*margin-left: 2vw;
+    border-radius: 0.6vw;
+    cursor:pointer; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #navitems{
   /* border:  0.3vw solid green  ; */
@@ -3738,6 +3838,13 @@ justify-content: center;
 
 
 
+
+
+
+
+
+
+
 @media only screen and (max-width:480px) {
 
 #contactu{
@@ -3776,6 +3883,20 @@ margin-right: 10vw;
 
 
 @media only screen and (max-width:370px) {
+
+
+  #FitNchill{
+    /* border: 0.2vw solid purple; */
+    width:55vw;
+    height:25vw;
+   /* margin-left: 35vw;
+   margin-top: 1vw; */
+
+  }
+
+
+
+
 
 #contactu{
   font-size: 9vw;
