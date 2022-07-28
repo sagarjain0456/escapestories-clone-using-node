@@ -2198,6 +2198,36 @@ margin-left: 0.5vw;
 
 
 
+#block2{
+  border:0.6vw solid orange;
+  display:flex;
+
+}
+
+
+#block2container{
+  border: 0.2vw solid purple;
+  width:35vw;
+   margin-left: 10vw;
+   margin-top:3vw;
+}
+
+
+
+
+#pedalsboost{
+  border: 0.2vw solid purple;
+  width:27vw;
+  height:27vw;
+ margin-left: 7vw;
+ margin-top: auto;
+ margin-bottom: auto;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 1241px) {
@@ -2586,6 +2616,58 @@ body{
     /* background-color: yellow; */
     position: relative;
   }
+
+
+
+
+
+  #block2{
+    /* border:0.6vw solid orange; */
+    /* display:flex; */
+   flex-direction: column;
+   position: relative;
+
+  }
+
+
+ #block2container{
+    border: 0.2vw solid purple;
+    width:75vw;
+    margin-left: 12vw;
+     /* margin-left: 10vw;
+     margin-top:3vw; */
+  }
+
+
+
+
+  #pedalsboost{
+    margin-top: 10vw;
+    width:35vw;
+    height:35vw;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+
+
+
+#pedals{
+  position: absolute;
+top:0vw;
+font-size: 5vw;
+  color:red;
+border: 0.6vw solid purple;
+/* width:50vw; */
+ left:30%;
+
+}
+
+
+
+
+
+
 
 
 
@@ -3846,6 +3928,38 @@ justify-content: center;
 
 
 @media only screen and (max-width:480px) {
+
+
+
+
+
+  #pedalsboost{
+    margin-top: 15vw;
+    width:55vw;
+    height:55vw;
+   /* margin-left: auto;
+   margin-right: auto; */
+  }
+
+
+
+
+#pedals{
+  /* position: absolute;
+top:0vw; */
+font-size: 8vw;
+  /* color:red;
+border: 0.6vw solid purple; */
+ left:15%;
+
+}
+
+
+
+
+
+
+
 
 #contactu{
   font-size: 7vw;
