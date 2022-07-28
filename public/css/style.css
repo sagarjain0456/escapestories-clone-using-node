@@ -2170,14 +2170,14 @@ margin-left: 0.5vw;
 
 
 #block1{
-  border:0.6vw solid orange;
+  /* border:0.6vw solid orange; */
   display:flex;
   /* height:80vh; */
 }
 
 
 #block1text{
-  border: 0.2vw solid purple;
+  /* border: 0.2vw solid purple; */
   width:30vw;
    margin-left: 10vw;
 }
@@ -2186,7 +2186,7 @@ margin-left: 0.5vw;
 
 
 #FitNchill{
-  border: 0.2vw solid purple;
+  /* border: 0.2vw solid purple; */
   width:25vw;
   height:13vw;
  margin-left: 20vw;
@@ -2199,14 +2199,14 @@ margin-left: 0.5vw;
 
 
 #block2{
-  border:0.6vw solid orange;
+  /* border:0.6vw solid orange; */
   display:flex;
 
 }
 
 
 #block2container{
-  border: 0.2vw solid purple;
+  /* border: 0.2vw solid purple; */
   width:35vw;
    margin-left: 10vw;
    margin-top:3vw;
@@ -2216,7 +2216,7 @@ margin-left: 0.5vw;
 
 
 #pedalsboost{
-  border: 0.2vw solid purple;
+  /* border: 0.2vw solid purple; */
   width:27vw;
   height:27vw;
  margin-left: 7vw;
@@ -2226,9 +2226,72 @@ margin-left: 0.5vw;
 
 
 
+#advenhead{
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+
+#advenpics{
+  /* border:0.6vw solid orange; */
+  width:85vw;
+  height:34vw;
+  margin-left: 10vw;
+}
+
+
+#adven1{
+  height:18vw;
+  width:24vw;
+}
+
+
+#adven2{
+  height:18vw;
+  width:24vw;
+  margin-left: -0.1vw;
+}
+
+#adven3{
+  height:18vw;
+  width:30vw;
+    margin-left: -0.1vw;
+}
+
+
+#adven4{
+  height:14vw;
+  width:20vw;
+    margin-top: -0.3vw;
+}
+
+
+#adven5{
+  height:14vw;
+  width:10vw;
+    margin-top: -0.2vw;
+    margin-left: -0.1vw;
+}
 
 
 
+
+#adven6{
+  height:14vw;
+  width:17.8vw;
+    margin-top: -0.3vw;
+    margin-left: -0.1vw;
+}
+
+
+
+
+#adven7{
+  height:14vw;
+  width:30vw;
+    margin-top: -0.3vw;
+    margin-left: -0.1vw;
+}
 
 @media only screen and (max-width: 1241px) {
   body {
@@ -2618,6 +2681,89 @@ body{
   }
 
 
+  #advenhead{
+    /* text-align: center; */
+    font-size: 5vw;
+    /* margin-bottom: 2vw; */
+  }
+
+
+  #advenpics{
+    /* border:0.6vw solid orange; */
+    width:83vw;
+    height:160vw;
+    /* margin-left: 10vw; */
+  }
+
+
+  #adven1{
+    height:36vw;
+    width:40.5vw;
+  }
+
+
+  #adven2{
+    height:36vw;
+    width:40.5vw;
+    margin-left: -0.1vw;
+  }
+
+
+
+  #adven3{
+    height:36vw;
+    width:40.5vw;
+    margin-top: -0.3vw;
+      /* margin-left: -0.1vw; */
+  }
+
+
+  #adven4{
+    height:36vw;
+    width:40.5vw;
+      margin-top: -0.3vw;
+      /* margin-top: -0.3vw; */
+  }
+
+
+  #adven5{
+    height:36vw;
+    width:40.5vw;
+      margin-top: -0.3vw;
+      object-fit:fill;
+
+  }
+
+
+
+
+  #adven6{
+    height:36vw;
+    width:40.5vw;
+      margin-top: -0.3vw;
+  }
+
+
+  #adven7{
+    height:34vw;
+    width:81.5vw;
+        object-fit:fill;
+      /* margin-top: -0.3vw;
+      margin-left: -0.1vw; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2631,7 +2777,7 @@ body{
 
 
  #block2container{
-    border: 0.2vw solid purple;
+    /* border: 0.2vw solid purple; */
     width:75vw;
     margin-left: 12vw;
   }
@@ -2654,8 +2800,8 @@ body{
   position: absolute;
 top:0vw;
 font-size: 5vw;
-  color:red;
-border: 0.6vw solid purple;
+  color: black;
+/* border: 0.6vw solid purple; */
 /* width:50vw; */
  left:30%;
 
@@ -3987,6 +4133,104 @@ margin-right: 10vw;
 
 
 }
+
+
+
+
+
+
+
+@media only screen and (max-width:450px) {
+
+
+
+  #advenhead{
+    /* text-align: center; */
+    font-size: 7vw;
+    /* margin-bottom: 2vw; */
+  }
+
+
+
+   #advenpics{
+    /* border:0.6vw solid orange; */
+    /* width:83vw; */
+    height:354vw;
+    /* margin-left: 10vw; */
+  }
+
+
+  #adven1{
+    height:50vw;
+    width:82vw;
+    object-fit:fill;
+  }
+
+
+   #adven2{
+     height:50vw;
+     width:82vw;
+     margin-top: -0.8vw;
+     object-fit:fill;
+    /* margin-left: -0.1vw; */
+  }
+
+
+
+  #adven3{
+    height:50vw;
+    width:82vw;
+    margin-top: -0.8vw;
+    object-fit:fill;
+  }
+
+
+
+
+  #adven4{
+    height:50vw;
+    width:82vw;
+    margin-top: -0.8vw;
+    object-fit:fill;
+  }
+
+
+  #adven5{
+    height:50vw;
+    width:82vw;
+    margin-top: -0.8vw;
+    object-fit:fill;
+  }
+
+
+
+
+
+  #adven6{
+    height:50vw;
+    width:82vw;
+    margin-top: -0.8vw;
+    object-fit:fill;
+  }
+
+
+
+
+  #adven7{
+    height:50vw;
+    width:82vw;
+    margin-top: -0.8vw;
+    object-fit:fill;
+  }
+
+
+
+
+}
+
+
+
+
 
 
 
