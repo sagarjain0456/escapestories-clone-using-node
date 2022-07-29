@@ -2365,6 +2365,7 @@ margin-right: 13vw;
 #term4para{
   margin-top: 20px;
 /* border:0.2vw solid orange; */
+width:90vw;
 font-size: 24px;
 margin-left: 5vw;
 margin-right: 13vw;
@@ -2757,6 +2758,58 @@ body{
     /* background-color: yellow; */
     position: relative;
   }
+
+
+#termshead{
+  font-size: 22px;
+    margin-left: 10vw;
+}
+
+#term1para{
+  font-size: 20px;
+  margin-left: 10vw;
+}
+
+#term2para{
+  font-size: 20px;
+  margin-left: 10vw;
+}
+
+
+#general{
+  font-size: 22px;
+    margin-left: 10vw;
+}
+
+
+
+#term3para{
+  font-size: 20px;
+  margin-left: 10vw;
+}
+
+
+
+  #cancel{
+      /* margin-top: 20px; */
+    /* border:0.2vw solid orange; */
+    font-size: 22px;
+      margin-left: 10vw;
+    /* margin-left: 5vw;
+    margin-right: 13vw; */
+
+  }
+
+
+
+  #term4para{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+
+
 
 
   #advenhead{
