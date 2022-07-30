@@ -2311,7 +2311,7 @@ margin-left: 0.5vw;
     margin-top: 30px;
   /* border:0.2vw solid orange; */
   /* width:50vw; */
-  font-size: 24px;
+  font-size: 22px;
   margin-left: 13vw;
   margin-right: 13vw;
  text-align: center;
@@ -2323,7 +2323,7 @@ margin-left: 0.5vw;
 #term2para{
     margin-top: 60px;
   /* border:0.2vw solid orange; */
-  font-size: 24px;
+  font-size: 22px;
   margin-left: 5vw;
   margin-right: 13vw;
 }
@@ -2343,7 +2343,7 @@ margin-left: 0.5vw;
 #term3para{
   margin-top: 20px;
 /* border:0.2vw solid orange; */
-font-size: 24px;
+font-size: 22px;
 margin-left: 5vw;
 margin-right: 13vw;
 }
@@ -2366,9 +2366,148 @@ margin-right: 13vw;
   margin-top: 20px;
 /* border:0.2vw solid orange; */
 width:90vw;
-font-size: 24px;
+font-size: 22px;
 margin-left: 5vw;
 margin-right: 13vw;
+}
+
+
+
+
+#privacyheading{
+  border:0.3vw solid orange;
+  text-align: center;
+  width:85vw;
+  margin-top: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+#privacypara1{
+  margin-top: 20px;
+border:0.2vw solid orange;
+font-size: 22px;
+width:75vw;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+#privacypara2{
+  margin-top: 60px;
+border:0.2vw solid orange;
+font-size: 22px;
+width:85vw;
+/* text-align: center; */
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+#payment{
+  font-size: 24px;
+  border: 0.2vw solid orange;
+  width:30vw;
+  margin-left: 7vw;
+  margin-top: 16px;
+}
+
+
+
+#privacypara3{
+  margin-top: 20px;
+border:0.2vw solid orange;
+font-size: 22px;
+width:85vw;
+/* text-align: center; */
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+#thirdparty{
+  font-size: 24px;
+  border: 0.2vw solid orange;
+  width:70vw;
+  margin-left: 7vw;
+  margin-top: 16px;
+}
+
+
+
+
+
+#privacypara4{
+  margin-top: 20px;
+border:0.2vw solid orange;
+font-size: 22px;
+width:85vw;
+/* text-align: center; */
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+#security{
+  font-size: 24px;
+  border: 0.2vw solid orange;
+  width:30vw;
+  margin-left: 7vw;
+  margin-top: 16px;
+}
+
+
+#privacypara5{
+  margin-top: 20px;
+border:0.2vw solid orange;
+font-size: 22px;
+width:85vw;
+/* text-align: center; */
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#cookies{
+  font-size: 24px;
+  border: 0.2vw solid orange;
+  width:30vw;
+  margin-left: 7vw;
+  margin-top: 16px;
+}
+
+
+
+#usecookies{
+  margin-top: 20px;
+border:0.2vw solid orange;
+font-size: 22px;
+width:85vw;
+/* text-align: center; */
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#privacypara6{
+  margin-top: 20px;
+border:0.2vw solid orange;
+font-size: 22px;
+width:85vw;
+/* text-align: center; */
+margin-left: auto;
+margin-right: auto;
 }
 
 

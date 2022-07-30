@@ -74,6 +74,16 @@ app.get("/terms.html", function(req,res){
 });
 
 
+
+
+app.get("/privacy.html", function(req,res){
+  res.sendFile(__dirname + "/privacy.html");
+});
+
+
+
+
+
 // app.get("/index.html", function(req,res){
 //   res.redirect("/");
 // });
