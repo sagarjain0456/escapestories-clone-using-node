@@ -2375,7 +2375,7 @@ margin-right: 13vw;
 
 
 #privacyheading{
-  border:0.3vw solid orange;
+  /* border:0.3vw solid orange; */
   text-align: center;
   width:85vw;
   margin-top: 1vw;
@@ -2388,7 +2388,7 @@ margin-right: 13vw;
 
 #privacypara1{
   margin-top: 20px;
-border:0.2vw solid orange;
+/* border:0.2vw solid orange; */
 font-size: 22px;
 width:75vw;
 text-align: center;
@@ -2401,7 +2401,7 @@ margin-right: auto;
 
 #privacypara2{
   margin-top: 60px;
-border:0.2vw solid orange;
+/* border:0.2vw solid orange; */
 font-size: 22px;
 width:85vw;
 /* text-align: center; */
@@ -2414,7 +2414,7 @@ margin-right: auto;
 
 #payment{
   font-size: 24px;
-  border: 0.2vw solid orange;
+  /* border: 0.2vw solid orange; */
   width:30vw;
   margin-left: 7vw;
   margin-top: 16px;
@@ -2424,7 +2424,7 @@ margin-right: auto;
 
 #privacypara3{
   margin-top: 20px;
-border:0.2vw solid orange;
+/* border:0.2vw solid orange; */
 font-size: 22px;
 width:85vw;
 /* text-align: center; */
@@ -2436,7 +2436,7 @@ margin-right: auto;
 
 #thirdparty{
   font-size: 24px;
-  border: 0.2vw solid orange;
+  /* border: 0.2vw solid orange; */
   width:70vw;
   margin-left: 7vw;
   margin-top: 16px;
@@ -2448,7 +2448,7 @@ margin-right: auto;
 
 #privacypara4{
   margin-top: 20px;
-border:0.2vw solid orange;
+/* border:0.2vw solid orange; */
 font-size: 22px;
 width:85vw;
 /* text-align: center; */
@@ -2461,7 +2461,7 @@ margin-right: auto;
 
 #security{
   font-size: 24px;
-  border: 0.2vw solid orange;
+  /* border: 0.2vw solid orange; */
   width:30vw;
   margin-left: 7vw;
   margin-top: 16px;
@@ -2470,7 +2470,7 @@ margin-right: auto;
 
 #privacypara5{
   margin-top: 20px;
-border:0.2vw solid orange;
+/* border:0.2vw solid orange; */
 font-size: 22px;
 width:85vw;
 /* text-align: center; */
@@ -2481,7 +2481,7 @@ margin-right: auto;
 
 #cookies{
   font-size: 24px;
-  border: 0.2vw solid orange;
+  /* border: 0.2vw solid orange; */
   width:30vw;
   margin-left: 7vw;
   margin-top: 16px;
@@ -2491,7 +2491,7 @@ margin-right: auto;
 
 #usecookies{
   margin-top: 20px;
-border:0.2vw solid orange;
+/* border:0.2vw solid orange; */
 font-size: 22px;
 width:85vw;
 /* text-align: center; */
@@ -2502,12 +2502,43 @@ margin-right: auto;
 
 #privacypara6{
   margin-top: 20px;
-border:0.2vw solid orange;
+/* border:0.2vw solid orange; */
 font-size: 22px;
 width:85vw;
 /* text-align: center; */
 margin-left: auto;
 margin-right: auto;
+}
+
+
+#thingsimg{
+  height:40vw;
+  width:40vw;
+  border-radius: 2vw;
+  margin-left: 10vw;
+}
+
+
+
+#thingsheading{
+  font-size: 42px;
+}
+
+
+#thingsimgtext{
+  display:flex;
+  align-items: center;
+}
+
+
+#thingstext{
+  margin-left: 7vw;
+}
+
+
+#alluls{
+  margin-top: 20px;
+  font-size: 24px;
 }
 
 
@@ -2897,6 +2928,54 @@ body{
     /* background-color: yellow; */
     position: relative;
   }
+
+
+#thingsimgtext{
+  flex-direction: column;
+  /* border: 0.3vw solid orange; */
+  position: relative;
+}
+
+
+
+#thingsimg{
+  width:80vw;
+  height:80vw;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: center;
+  margin-left: auto;
+  margin-right: auto; */
+  /* margin-right: 15vw; */
+  margin-top: 10vw;
+
+}
+
+
+
+#thingsheading{
+  position: absolute;
+  top:0;
+  font-size: 7vw;
+  left:25vw;
+
+  /* left:50vw;
+  right:50vw; */
+}
+
+
+#alluls{
+ /* text-align: left; */
+ /* text-align:justify; */
+ /* justify-content: flex-start; */
+  /* align-content: flex-start; */
+  /* float:left; */
+  padding-top: 40px;
+ margin-right: 25vw;
+ margin-left: 5vw;
+}
+
+
 
 
 #termshead{

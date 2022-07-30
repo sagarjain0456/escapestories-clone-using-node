@@ -81,7 +81,9 @@ app.get("/privacy.html", function(req,res){
 });
 
 
-
+app.get("/tips.html", function(req,res){
+  res.sendFile(__dirname + "/tips.html");
+});
 
 
 // app.get("/index.html", function(req,res){
