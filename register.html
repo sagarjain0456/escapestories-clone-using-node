@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+
+
+    <div class="topbar">
+      <!-- This is the topmost div starting-->
+
+
+      <div class="escapelogo">
+        <img class="escapelogostyle" src="img/FitNchill5.png" alt="escape stories logo">
+      </div>
+
+
+
+      <div id="navitems">
+        <a id="sagar" class="home yo" href="/"> Home</a>
+        <a class="book yo" href="#"> Book Now</a>
+        <a id="find" class="find yo" href="#"> Search</a>
+        <a class="my yo" href="#"> My Ticket</a>
+
+
+
+
+        <span class=pedalsabovediv>
+          <input type="checkbox" id="checkbox2">
+          <label for="checkbox2">
+            <a onclick="myfunction2()" class="pedals yo">Pedas power</a>
+          </label>
+          <div id="pedalsitems">
+            <a href="#">June 21 days Challenge: Ride Run Walk </a>
+            <a href="#"> Manalai Leh cycling-Expedition (Fully Supported) </a>
+          </div>
+        </span>
+
+
+
+        <span class="upcomingabovediv">
+          <input type="checkbox" id="checkbox3">
+          <label for="checkbox3">
+            <a onclick="myfunction3()" id="upcome" class="upcoming yo"> Upcoming Events</a>
+          </label>
+          <div id="upcomingitems">
+            <a href="#">June 21 days Challenge: Ride Run Walk </a>
+          </div>
+        </span>
+
+
+
+        <span class="pastabovediv">
+          <input type="checkbox" id="checkbox4">
+          <label for="checkbox4">
+            <a onclick="myfunction4()" id="past" class="past yo"> Past Events</a>
+          </label>
+          <div id="pastitems">
+            <a href="#"> May Distance <br> challenge: Ride Run <br>Walk</a>
+            <a href="#"> April Run Challenge</a>
+            <a href="#"> Republic Day <br> Ride/Run/Walk</a>
+            <a href="#"> Winter Consistency <br> Challenge</a>
+            <a href="#"> Gurgaon Alwar <br> Gurgaon</a>
+            <a href="#"> Gandhi Jayanti Ride <br> Run Walk</a>
+            <a href="#"> Navy Day <br> Ride/Run/Walk</a>
+          </div>
+        </span>
+
+
+
+
+
+        <span class="trekabovediv">
+          <input type="checkbox" id="checkbox5">
+          <label for="checkbox5">
+            <a onclick="myfunction5()" id="trek" class="treks yo"> Treks</a>
+          </label>
+          <div id="treksitems">
+            <a href="#">Chopta-Chandrashilla</a>
+            <a href="#">Kedarkantha</a>
+            <a href="#">Indrahar Pass</a>
+            <a href="#">Mcleodganj</a>
+            <a href="#">Jibhi & Jalori Pass</a>
+            <a href="#">Kalga</a>
+            <a href="#">Kareri Lake</a>
+          </div>
+        </span>
+
+
+
+
+
+        <span class="communityabovediv">
+          <input type="checkbox" id="checkbox6">
+          <label for="checkbox6">
+            <a onclick="myfunction6()" id="community" class="community yo"> Community</a>
+          </label>
+          <div id="joinusbtn">
+            <a class="joinus" href="#"> Join Us</a>
+          </div>
+        </span>
+
+
+      </div>
+
+
+
+
+
+      <div class="rightlogos">
+        <img class="login" src="img/loginlogo.png" alt="login logo">
+        <img class="search" src="img/searchlogo.png" alt="search tool logo">
+        <img id="cart" src="img/cartlogo.png" alt="cartlogo">
+      </div>
+
+    </div> <!-- this is the closing of the topmost div -->
+
+    <input type="checkbox" id="my-checkbox">
+    <label for="my-checkbox">
+      <div id="menu" onclick="myFunction()">
+        <div id="bar1"> </div>
+        <div id="bar2"> </div>
+      </div>
+    </label>
+
+
+
+
+
+
+
+  <br><br>    <br><br>    <br><br>
+
+
+
+
+<h1 id=Indehead>Independence Day cycling Challenge</h1>
+
+<ul id="registeruls">
+  <li> E-certificate and medal @349/  </li>
+  <li> E-certificate and T-shirt @499/  </li>
+  <li> E-certificate, Medal and T-shirt @749/ </li>
+</ul>
+
+
+<!-- <div id="kmbtns">
+
+
+  <input type="checkbox" id="regibtnopchbox">
+  <label for="regibtnopchbox">
+<button onclick="regibtndrop()" id="btnkm1"> 25 Km Cycling</button>
+    </label>
+
+<button id="btnkm2"> 50 Km Cycling</button>
+
+<button id="btnkm3"> 75 Km Cycling</button>
+
+<button id="btnkm4"> 100 Km Cycling</button>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br> -->
+
+
+<!--
+<input type="checkbox" id="chboxregibtn" hidden>
+<label onclick="regicycle25btn()" id="cyclebtn" for="chboxregibtn"> 25 Km Cycling</label>
+<label  id="regicycle2">50 Km Cycling</label>
+<label  id="regicycle3">75 Km Cycling</label> -->
+
+
+
+<form action="index.html" method="post">
+
+<!-- <label for="cars"> Choose the distance: </label> -->
+
+<div id="regidrops">
+
+
+<select  id="cycdis">
+<option>  25 Km Cycling  </option>
+<option>  50 Km Cycling  </option>
+<option>  75 Km Cycling  </option>
+<option>  100 Km Cycling  </option>
+</select>
+
+<br><br>
+
+
+
+
+<select  id="prizecateg">
+<option>  Medal and E-certificate  </option>
+<option>  T-shirt and E-certificate  </option>
+<option>  Medal, T-shirt and E-certificate  </option>
+</select>
+
+</div>
+
+<!-- <input type="submit"  value="Submit"> -->
+
+</form>
+
+
+
+
+
+
+
+
+      <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

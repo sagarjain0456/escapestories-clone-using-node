@@ -2542,6 +2542,145 @@ margin-right: auto;
 }
 
 
+#Indehead{
+font-size: 32px;
+text-align: center;
+}
+
+
+#registeruls{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* #kmbtns{
+  display: flex;
+  flex-direction:column;
+}
+
+
+#btnkm1{
+  height:50px;
+  width:120px;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+}
+
+#btnkm2{
+  height:50px;
+  width:120px;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+  margin-top:  5px;
+  display: none;
+}
+
+#btnkm3{
+  height:50px;
+  width:120px;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+    margin-top:  5px;
+    display: none;
+}
+
+#btnkm4{
+  height:50px;
+  width:120px;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+    margin-top: 5px;
+    display: none;
+
+}
+
+
+
+#cyclebtn{
+  width:120px;
+  height:60px;
+  background: red;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+
+
+#cyclebtn:hover {background-color: blue;}
+
+
+#regicycle2{
+  visibility:  hidden;
+  margin-top: 5px;
+  width:120px;
+  height:60px;
+  background: red;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+
+
+
+#regicycle3{
+  visibility:  hidden;
+  margin-top: 5px;
+  width:120px;
+  height:60px;
+  background: red;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+} */
+
+
+#regidrops{
+  display: flex;
+  border:0.5vw solid orange;
+  /* padding-left: 37vw; */
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#cycdis{
+  padding:10px;
+  border-radius: 10px;
+  font-size: 20px;
+  /* margin-left: 40vw;
+  margin-top: 40px; */
+  /* margin-right:auto; */
+}
+
+
+#prizecateg{
+  padding:10px;
+  border-radius: 10px;
+  margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
 @media only screen and (max-width: 1241px) {
   body {
     /* background-color: lightblue; */
@@ -2928,6 +3067,29 @@ body{
     /* background-color: yellow; */
     position: relative;
   }
+
+
+
+  #regidrops{
+
+    flex-direction: column;
+    /* display: flex;
+    border:0.5vw solid orange;
+    justify-content: center;
+    margin-top: 40px; */
+  }
+
+
+
+
+  #prizecateg{
+    /* padding:10px;
+    border-radius: 10px; */
+    margin-left: 0px;
+      /* font-size: 20px; */
+  }
+
+
 
 
 #thingsimgtext{

@@ -86,9 +86,17 @@ app.get("/tips.html", function(req,res){
 });
 
 
-// app.get("/index.html", function(req,res){
-//   res.redirect("/");
-// });
+
+app.get("/gallery.html", function(req,res){
+  res.sendFile(__dirname + "/gallery.html");
+});
+
+
+
+
+app.get("/register.html", function(req,res){
+  res.sendFile(__dirname + "/register.html");
+});
 
 
 
