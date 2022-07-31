@@ -2687,6 +2687,99 @@ text-align: center;
 }
 
 
+#regidescrip{
+  display: flex;
+  height:auto;
+  width:100vw;
+  background-color: pink;
+}
+
+
+#regdescrihead{
+  font-size: 30px;
+  margin-left: 10vw;
+  padding-top: 100px;
+}
+
+#chalrules{
+  font-size: 30px;
+  margin-left: 10vw;
+  padding-top:30px
+}
+
+
+#regili1{
+  border:0.4vw solid orange;
+  width:35vw;
+  font-size: 20px;
+    margin-left: 12vw;
+    margin-top: 30px;
+}
+
+
+
+
+#regili2{
+  border:0.4vw solid orange;
+  width:38vw;
+  font-size: 20px;
+    margin-left: 12vw;
+    margin-top: 30px;
+}
+
+
+
+
+#regidescright{
+  border:0.6vw solid orange;
+  margin-left: 10vw;
+  width:35vw;
+  /* height:40vw; */
+}
+
+
+
+#submregidescri{
+  padding-top: 150px;
+}
+
+
+
+
+
+#regdescripara{
+  border:0.4vw solid orange;
+  width:34vw;
+  font-size: 20px;
+    /* margin-left: 12vw; */
+    margin-top: 30px;
+}
+
+
+
+
+
+#regdesrili1{
+  border:0.4vw solid orange;
+  width:30vw;
+  font-size: 20px;
+    margin-left: 14px;
+    margin-top: 30px;
+}
+
+
+
+
+
+#regdesrili2{
+  border:0.4vw solid orange;
+  width:30vw;
+  font-size: 20px;
+    margin-left: 14px;
+    margin-top: 30px;
+}
+
+
 @media only screen and (max-width: 1241px) {
   body {
     /* background-color: lightblue; */
@@ -3072,6 +3165,96 @@ body{
   body{
     /* background-color: yellow; */
     position: relative;
+  }
+
+
+
+
+#submregidescri{
+  font-size: 20px;
+}
+
+
+  #regdesrili1{
+    width:75vw;
+  }
+
+
+
+  #regdesrili2{
+    width:75vw;
+  }
+
+
+
+  #regdescripara{
+    /* border:0.4vw solid orange; */
+    width:75vw;
+    /* font-size: 20px;
+      margin-top: 30px; */
+  }
+
+
+
+  #regidescright{
+    /* border:0.6vw solid orange;
+    margin-left: 60px; */
+    width:85vw;
+  }
+
+
+
+
+
+  #submregidescri{
+    padding-top: 30px;
+  }
+
+  #regidescrip{
+    /* display: flex; */
+    flex-direction: column;
+    /* height:100vh;
+    width:100vw; */
+    /* background-color: red; */
+  }
+
+
+
+
+
+
+
+
+  #regili1{
+    /* border:0.4vw solid orange; */
+    width:75vw;
+    /* font-size: 20px;
+      margin-left: 10vw;
+      margin-top: 30px; */
+  }
+
+
+  #regili2{
+    /* border:0.4vw solid orange; */
+    width:75vw;
+    /* font-size: 20px;
+      margin-left: 10vw;
+      margin-top: 30px; */
+  }
+
+
+
+
+  #regdescrihead{
+    font-size: 20px;
+    /* margin-left: 10vw;
+    padding-top: 100px; */
+  }
+
+  #chalrules{
+    font-size: 20px;
+    /* margin-left: 10vw;
+    padding-top:40px */
   }
 
 
