@@ -2680,6 +2680,12 @@ text-align: center;
 
 
 
+#actualprice{
+  /* margin-left: 30vw; */
+  text-align: center;
+  font-size: 52px;
+}
+
 
 @media only screen and (max-width: 1241px) {
   body {

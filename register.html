@@ -147,36 +147,11 @@
 </ul>
 
 
-<!-- <div id="kmbtns">
-
-
-  <input type="checkbox" id="regibtnopchbox">
-  <label for="regibtnopchbox">
-<button onclick="regibtndrop()" id="btnkm1"> 25 Km Cycling</button>
-    </label>
-
-<button id="btnkm2"> 50 Km Cycling</button>
-
-<button id="btnkm3"> 75 Km Cycling</button>
-
-<button id="btnkm4"> 100 Km Cycling</button>
-
-</div>
-
-<br><br><br><br><br><br><br><br><br><br><br> -->
-
-
-<!--
-<input type="checkbox" id="chboxregibtn" hidden>
-<label onclick="regicycle25btn()" id="cyclebtn" for="chboxregibtn"> 25 Km Cycling</label>
-<label  id="regicycle2">50 Km Cycling</label>
-<label  id="regicycle3">75 Km Cycling</label> -->
-
 
 
 <form action="index.html" method="post">
 
-<!-- <label for="cars"> Choose the distance: </label> -->
+
 
 <div id="regidrops">
 
@@ -193,10 +168,10 @@
 
 
 
-<select  id="prizecateg">
-<option>  Medal and E-certificate  </option>
-<option>  T-shirt and E-certificate  </option>
-<option>  Medal, T-shirt and E-certificate  </option>
+<select  id="prizecateg"   onchange="changfunc()">
+<option value="Rs 349">  Medal and E-certificate  </option>
+<option value="Rs 499">  T-shirt and E-certificate  </option>
+<option value="Rs 749">  Medal, T-shirt and E-certificate  </option>
 </select>
 
 </div>
@@ -206,6 +181,7 @@
 </form>
 
 
+  <h1 id="actualprice">Rs 349</h1>
 
 
 

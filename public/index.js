@@ -391,32 +391,10 @@ if(document.getElementById("checkbox4").checked ){
 
 
 
-
-// function regibtndrop() {
-// document.getElementById("btnkm2").style.display="block" ;
-// document.getElementById("btnkm3").style.display="block" ;
-// document.getElementById("btnkm4").style.display="block" ;
-//
-// }
-
-//
-
-// 
-// function regicycle25btn() {
-//
-//   if(document.getElementById("chboxregibtn").checked ){
-// document.getElementById("regicycle2").style.visibility="hidden" ;
-// document.getElementById("regicycle3").style.visibility="hidden" ;
-// }
-//
-//
-// else{
-// document.getElementById("regicycle2").style.visibility="visible" ;
-// document.getElementById("regicycle3").style.visibility="visible" ;
-// }
-//
-//
-// }
+function changfunc(){
+   var x = document.getElementById("prizecateg").value;
+  document.getElementById("actualprice").innerHTML = x ;
+}
 
 
 
