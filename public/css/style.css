@@ -2780,6 +2780,20 @@ text-align: center;
 }
 
 
+#book{
+  margin-top: 20px;
+  margin-left: 47%;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding:15px;
+  cursor:pointer;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 1241px) {
   body {
     /* background-color: lightblue; */
@@ -3168,6 +3182,10 @@ body{
   }
 
 
+
+#book{
+  margin-left: 40%;
+}
 
 
 #submregidescri{

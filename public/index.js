@@ -393,10 +393,31 @@ if(document.getElementById("checkbox4").checked ){
 
 function changfunc(){
    var x = document.getElementById("prizecateg").value;
+   console.log(x);
   document.getElementById("actualprice").innerHTML = x ;
 }
 
 
+
+
+function changfunc2(){
+   var y = document.getElementById("cycdis").value;
+   console.log(y);
+}
+
+
+// function dispri(){
+//   var x = document.getElementById("prizecateg").value;
+//   console.log(x);
+//  document.getElementById("actualprice").innerHTML = x ;
+// }
+
+
+// window.onload() {
+//     document.getElementById("prival").innerHTML = "Bonjour";
+// }
+
+ document.getElementById("jain").innerHTML = "Bonjour";
 
 let slideIndex = 0;
 showSlides();

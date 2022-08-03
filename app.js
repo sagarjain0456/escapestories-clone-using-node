@@ -100,6 +100,24 @@ app.get("/register.html", function(req,res){
 
 
 
+app.post("/bookingform.html", function(req,res){
+// document.getElementById("prival").innerHTML = "Bonjour";
+  res.sendFile(__dirname + "/bookingform.html");
+});
+
+
+
+
+
+
+// app.post("/register.html", function(req,res){
+// // console.log(req.body.prizez);
+//
+//
+//
+//
+// });
+
 
 
 

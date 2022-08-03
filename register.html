@@ -149,18 +149,18 @@
 
 
 
-<form action="index.html" method="post">
+<form action="/bookingform.html" method="post">
 
 
 
 <div id="regidrops">
 
 
-<select  id="cycdis">
-<option>  25 Km Cycling  </option>
-<option>  50 Km Cycling  </option>
-<option>  75 Km Cycling  </option>
-<option>  100 Km Cycling  </option>
+<select  name="ditanz"  id="cycdis"   onchange="changfunc2()">
+<option  name="disone">   25 Km Cycling  </option>
+<option value="50km">   50 Km Cycling  </option>
+<option value="75km">   75 Km Cycling  </option>
+<option value="100km">  100 Km Cycling  </option>
 </select>
 
 <br><br>
@@ -168,7 +168,7 @@
 
 
 
-<select  id="prizecateg"   onchange="changfunc()">
+<select   name="prizez"  id="prizecateg"  onchange="changfunc()" >
 <option value="Rs 349">  Medal and E-certificate  </option>
 <option value="Rs 499">  T-shirt and E-certificate  </option>
 <option value="Rs 749">  Medal, T-shirt and E-certificate  </option>
@@ -176,11 +176,15 @@
 
 </div>
 
-<!-- <input type="submit"  value="Submit"> -->
+  <h1 id="actualprice">Rs 349</h1>
+<a href="/bookingform.html">
 
+
+<input  id="book"  type="submit"  value="Book Now"  onclick="dispri()">
+</a>
 </form>
 
-  <h1 id="actualprice">Rs 349</h1>
+
 
 
   <br><br><br><br>
