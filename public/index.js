@@ -411,36 +411,22 @@ localStorage.setItem("PRICE", pri);
 localStorage.setItem("DISTANCE", dis);
 // document.getElementById("jain").innerHTML = localStorage.getItem("PRICE");
 
+
+// document.getElementById("cartprice").innerHTML = localStorage.getItem("PRICE");
+//
+// document.getElementById("cartdis").innerHTML = localStorage.getItem("DISTANCE");
+
 return;
 }
 
-
-
-
-document.getElementById("cartprice").innerHTML = localStorage.getItem("PRICE");
-
-document.getElementById("cartdis").innerHTML = localStorage.getItem("DISTANCE");
-// function changfunc2(){
-//    var y = document.getElementById("cycdis").value;
-//    console.log(y);
-//    localStorage.setItem("disvalue",y);
-//    return;
+// function seth1() {
+// document.getElementById("cartprice").innerHTML = localStorage.getItem("PRICE");
+//
+// document.getElementById("cartdis").innerHTML = localStorage.getItem("DISTANCE");
 // }
 
 
-// function dispri(){
-//   var x = document.getElementById("prizecateg").value;
-//   console.log(x);
-//  document.getElementById("actualprice").innerHTML = x ;
-// }
 
-
-// window.onload() {
-//     document.getElementById("prival").innerHTML = "Bonjour";
-// }
-
- // document.getElementById("jain").innerHTML = "Bonjour";
- // document.getElementById("jain").innerHTML = localStorage.getItem("PRICE");
 
 let slideIndex = 0;
 showSlides();

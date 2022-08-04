@@ -4,10 +4,54 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 
-mongoose.connect("mongodb+srv://admin-sagar:Codinginfo888@escapestories-1st-clust.mtdsd.mongodb.net/bookingsDatabase", { useNewUrlParser: true  }, (err) => {
-  if(!err) {console.log('MongoDB Connection Succeeded.')}
-  else{console.log('Error in DB cnnection: ' + err)}
-});
+
+var StravaApiV3 = require('strava_api_v3');
+var defaultClient = StravaApiV3.ApiClient.instance;
+
+// Configure OAuth2 access token for authorization: strava_oauth
+var strava_oauth = defaultClient.authentications['strava_oauth'];
+strava_oauth.accessToken = "0680b0cafa9787baa33bb1367007d8e53b887406 "
+
+var api = new StravaApiV3.ActivitiesApi()
+
+var name = name_example; // {String} The name of the activity.
+
+var sportType = sportType_example; // {String} Sport type of activity. For example - Run, MountainBikeRide, Ride, etc.
+
+var startDateLocal = 2022-10-20; // {Date} ISO 8601 formatted date time.
+
+var elapsedTime = 56; // {Integer} In seconds.
+
+var opts = {
+  'type': type_example, // {String} Type of activity. For example - Run, Ride etc.
+  'description': description_example, // {String} Description of the activity.
+  'distance': 3.4, // {Float} In meters.
+  'trainer': 56, // {Integer} Set to 1 to mark as a trainer activity.
+  'commute': 56, // {Integer} Set to 1 to mark as commute.
+  'hideFromHome': true // {Boolean} Set to true to mute activity.
+};
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully. Returned data: ' + data);
+  }
+};
+api.createActivity(name, sportType, startDateLocal, elapsedTime, opts, callback);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 const bookingSchema = new mongoose.Schema({
@@ -156,8 +200,8 @@ newBooking.save(function(err){
 
 
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 4000, function(){
 
-console.log("Server started on port 3000");
+console.log("Server started on port 4000");
 
 });

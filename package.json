@@ -23,6 +23,8 @@
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
     "mongoose": "^6.4.6",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "strava": "^1.4.0",
+    "strava-v3": "^2.1.0"
   }
 }
