@@ -3110,9 +3110,22 @@ body{
 }
 
 
+<<<<<<< HEAD
 
 
 
+=======
+#btnform{
+  /* display:block; */
+  height:6vw;
+   font-size: 2vw;
+  width:10vw;
+   margin-top: 4vw;
+  /*margin-left: 2vw;
+  border-radius: 0.6vw;
+  cursor:pointer; */
+}
+>>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 
 
 
@@ -4782,6 +4795,7 @@ justify-content: center;
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -4823,10 +4837,15 @@ border: 0.6vw solid purple; */
 
 
 
+=======
+@media only screen and (max-width:480px) {
+
+>>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 #contactu{
   font-size: 7vw;
 }
 
+<<<<<<< HEAD
 .escapelogostyle{
 
 margin-right: 10vw;
@@ -4837,6 +4856,8 @@ margin-right: 10vw;
 
 
 
+=======
+>>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 
 #btnform{
   /* display:block; */
@@ -4858,6 +4879,7 @@ margin-right: 10vw;
 
 
 
+<<<<<<< HEAD
 @media only screen and (max-width:450px) {
 
 
@@ -4972,11 +4994,16 @@ margin-right: 10vw;
 
 
 
+=======
+@media only screen and (max-width:370px) {
+
+>>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 #contactu{
   font-size: 9vw;
 }
 
 
+<<<<<<< HEAD
 .escapelogostyle{
   /* border-radius: 100%; */
   /* height:3vw;
@@ -4989,6 +5016,8 @@ margin-left: 0.5vw;
 }
 
 
+=======
+>>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 
 #btnform{
 height:14vw;
@@ -4999,6 +5028,7 @@ font-size: 5vw;
 }
 
 }
+<<<<<<< HEAD
 
 
 
@@ -5017,3 +5047,5 @@ width:140px;
 margin-left: 0.5vw;
 
 }
+=======
+>>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94

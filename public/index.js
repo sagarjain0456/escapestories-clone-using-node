@@ -393,17 +393,39 @@ if(document.getElementById("checkbox4").checked ){
 
 function changfunc(){
    var x = document.getElementById("prizecateg").value;
-   console.log(x);
+     // localStorage.setItem("pricevalue",x);
   document.getElementById("actualprice").innerHTML = x ;
 }
 
 
 
+function dispri(){
 
-function changfunc2(){
-   var y = document.getElementById("cycdis").value;
-   console.log(y);
+// alert("dfafa");
+var pri = document.getElementById("prizecateg").value;
+var dis = document.getElementById("cycdis").value;
+// console.log(pri);
+// console.log(dis);
+
+localStorage.setItem("PRICE", pri);
+localStorage.setItem("DISTANCE", dis);
+// document.getElementById("jain").innerHTML = localStorage.getItem("PRICE");
+
+return;
 }
+
+
+
+
+document.getElementById("cartprice").innerHTML = localStorage.getItem("PRICE");
+
+document.getElementById("cartdis").innerHTML = localStorage.getItem("DISTANCE");
+// function changfunc2(){
+//    var y = document.getElementById("cycdis").value;
+//    console.log(y);
+//    localStorage.setItem("disvalue",y);
+//    return;
+// }
 
 
 // function dispri(){
@@ -417,7 +439,8 @@ function changfunc2(){
 //     document.getElementById("prival").innerHTML = "Bonjour";
 // }
 
- document.getElementById("jain").innerHTML = "Bonjour";
+ // document.getElementById("jain").innerHTML = "Bonjour";
+ // document.getElementById("jain").innerHTML = localStorage.getItem("PRICE");
 
 let slideIndex = 0;
 showSlides();

@@ -53,7 +53,8 @@ const app = express();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.get("/" , function (req,res){
+app.get("/", function(req,res){
+
   res.sendFile(__dirname +"/index.html");
 });
 
@@ -101,7 +102,7 @@ app.get("/register.html", function(req,res){
 
 
 app.post("/bookingform.html", function(req,res){
-// document.getElementById("prival").innerHTML = "Bonjour";
+
   res.sendFile(__dirname + "/bookingform.html");
 });
 
