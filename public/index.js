@@ -390,44 +390,6 @@ if(document.getElementById("checkbox4").checked ){
 
 
 
-
-function changfunc(){
-   var x = document.getElementById("prizecateg").value;
-     // localStorage.setItem("pricevalue",x);
-  document.getElementById("actualprice").innerHTML = x ;
-}
-
-
-
-function dispri(){
-
-// alert("dfafa");
-var pri = document.getElementById("prizecateg").value;
-var dis = document.getElementById("cycdis").value;
-// console.log(pri);
-// console.log(dis);
-
-localStorage.setItem("PRICE", pri);
-localStorage.setItem("DISTANCE", dis);
-// document.getElementById("jain").innerHTML = localStorage.getItem("PRICE");
-
-
-// document.getElementById("cartprice").innerHTML = localStorage.getItem("PRICE");
-//
-// document.getElementById("cartdis").innerHTML = localStorage.getItem("DISTANCE");
-
-return;
-}
-
-// function seth1() {
-// document.getElementById("cartprice").innerHTML = localStorage.getItem("PRICE");
-//
-// document.getElementById("cartdis").innerHTML = localStorage.getItem("DISTANCE");
-// }
-
-
-
-
 let slideIndex = 0;
 showSlides();
 

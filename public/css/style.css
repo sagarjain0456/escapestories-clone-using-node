@@ -2662,7 +2662,7 @@ text-align: center;
   margin-top: 40px;
 }
 
-#cycdis{
+#cyc-dis{
   padding:10px;
   border-radius: 10px;
   font-size: 20px;
@@ -2672,7 +2672,7 @@ text-align: center;
 }
 
 
-#prizecateg{
+#prize-category{
   padding:10px;
   border-radius: 10px;
   margin-left: 20px;
@@ -2681,7 +2681,7 @@ text-align: center;
 
 
 
-#actualprice{
+#actual-price{
   /* margin-left: 30vw; */
   text-align: center;
   font-size: 52px;
