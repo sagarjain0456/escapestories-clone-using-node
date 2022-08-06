@@ -1,10 +1,16 @@
 // require('./models/db');
-const express = require("express");
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
+const express =  import("express");
+const bodyParser =  import("body-parser");
+const mongoose =  import("mongoose");
+
+import strava from 'strava-v3';
+// import { default as strava, Strava } from 'strava-v3';
 
 
-const bookingSchema = new mongoose.Schema({
+
+
+
+const bookingSchema =  new mongoose.Schema({
 name: String,
 email: String,
 mobile: Number,
@@ -17,7 +23,7 @@ state: String
 
 
 //creating the model
-const Booking = mongoose.model("Booking", bookingSchema); // name of the collection, name of the schema
+module.exports = mongoose.model("Booking", bookingSchema); // name of the collection, name of the schema
 
 // Now we will create the document using the above model
 
@@ -121,7 +127,7 @@ app.post("/bookingform.html", function(req,res){
 app.post("/", function(req,res){
 
 const newBooking = new Booking ({
-   name:req.body.fullname,
+   name: req.body.fullname,
    email: req.body.email,
    mobile: req.body.mobile,
    address: req.body.address,
