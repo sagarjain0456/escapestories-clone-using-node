@@ -5,6 +5,27 @@
   text-decoration: none;
 }
 
+#btn-minus{
+height:30px;
+width:30px;
+margin-left: 10px;
+}
+
+#btn-plus{
+height:30px;
+width:30px;
+margin-left: 10px;
+}
+
+
+
+
+#numb-count{
+  display: inline-block;
+}
+
+
+
 #prizemoney-form{
   display:flex;
 }

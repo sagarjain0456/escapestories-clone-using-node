@@ -251,10 +251,10 @@ document.getElementById("cart-dis").innerHTML = localStorage.getItem("DISTANCE")
 
 
 var a = localStorage.getItem("PRICE");
-if (a == "Rs 499") {
+if (a == "499") {
   console.log("499 selected");
   document.getElementById("cart-prize-name").innerHTML = "T-shirt and E-certificate";
-} else if (a == "Rs 349") {
+} else if (a == "349") {
   console.log("349 selected");
   document.getElementById("cart-prize-name").innerHTML = "Medal and E-certificate";
 } else {
@@ -262,6 +262,30 @@ if (a == "Rs 499") {
   document.getElementById("cart-prize-name").innerHTML = "Medal, T-shirt and E-certificate";
 }
 
+
+
+var countvariable=1;
+document.getElementById('numb-count').innerHTML = countvariable;
+
+document.getElementById("total-money").innerHTML = parseInt(a) ;
+
+
+
+function countInc(){
+document.getElementById('numb-count').innerHTML = ++countvariable;
+changeTotal();
+}
+
+
+function countDec(){
+document.getElementById('numb-count').innerHTML = --countvariable;
+changeTotal();
+}
+
+
+function changeTotal(){
+  document.getElementById("total-money").innerHTML = parseInt(a) * countvariable;
+}
 
 
 
