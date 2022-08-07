@@ -5,9 +5,52 @@
   text-decoration: none;
 }
 
-/* body{
-  background-color: black;
-} */
+#prizemoney-form{
+  display:flex;
+}
+
+#cart-heading{
+  color: grey;
+  font-size: 45px;
+  border:0.4vw solid orange;
+  margin-left: 55vw;
+  margin-top: 50px;
+  /* display: inline-block; */
+}
+
+
+#cart-price{
+  display: inline-block;
+  font-size: 25px;
+  border:0.4vw solid orange;
+    margin-left: 50vw;
+      margin-top: 50px;
+}
+
+
+#cart-dis{
+  font-size: 25px;
+  border:0.4vw solid orange;
+    width:180px;
+    color:blue;
+      /* display: inline-block; */
+}
+
+
+#cart-prize-name{
+  /* display: inline-block; */
+  font-size: 25px;
+  border:0.4vw solid orange;
+    width:340px;
+    color:blue;
+}
+
+
+#cart-dis-prize-name{
+  display: flex;
+}
+
+
 
 
 
@@ -24,10 +67,8 @@
   background-color: pink;
   height:70vh;
   width:30vw;
-  position: relative;
-  margin-left: 5vw;
-  margin-top: 5vw;
-  float:right;
+  position: absolute;
+  right:0vw;
 }
 
 

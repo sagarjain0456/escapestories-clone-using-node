@@ -250,6 +250,17 @@ document.getElementById("cart-price").innerHTML = localStorage.getItem("PRICE");
 document.getElementById("cart-dis").innerHTML = localStorage.getItem("DISTANCE");
 
 
+var a = localStorage.getItem("PRICE");
+if (a == "Rs 499") {
+  console.log("499 selected");
+  document.getElementById("cart-prize-name").innerHTML = "T-shirt and E-certificate";
+} else if (a == "Rs 349") {
+  console.log("349 selected");
+  document.getElementById("cart-prize-name").innerHTML = "Medal and E-certificate";
+} else {
+  console.log("749 selected");
+  document.getElementById("cart-prize-name").innerHTML = "Medal, T-shirt and E-certificate";
+}
 
 
 
