@@ -5,16 +5,64 @@
   text-decoration: none;
 }
 
+
+
+#total-heading-amount{
+  display: flex;
+  font-size: 12px;
+  border:0.4vw solid orange;
+  width:190px;
+  margin-left: 40vw;
+  margin-top: 70px;
+
+
+  /* flex-grow: 0;
+ flex-shrink: 0;
+ flex-basis: 250px; */
+}
+
+
+
+#total-money{
+  color:red;
+  padding-left: 80px;
+}
+
+
+
+
+
 #btn-minus{
-height:30px;
-width:30px;
+height:20px;
+width:20px;
 margin-left: 10px;
+border-radius: 100%;
+
+/* height:70px; */
+/* border:0.4vw solid orange; */
+margin-top: 15px;
+
+
+
+
+   flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 20px;
+
+
 }
 
 #btn-plus{
-height:30px;
-width:30px;
+  height:20px;
+  width:20px;
 margin-left: 10px;
+border-radius: 100%;
+margin-top: 15px;
+
+
+   flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 20px;
 }
 
 
@@ -22,12 +70,19 @@ margin-left: 10px;
 
 #numb-count{
   display: inline-block;
+  font-size: 25px;
+
+  border:0.4vw solid orange;
+  margin-top: 10px;
+   height:70px;
 }
 
 
 
 #prizemoney-form{
   display:flex;
+    border:0.4vw solid orange;
+    height:80vh;
 }
 
 #cart-heading{
@@ -35,40 +90,74 @@ margin-left: 10px;
   font-size: 45px;
   border:0.4vw solid orange;
   margin-left: 55vw;
-  margin-top: 50px;
-  /* display: inline-block; */
-}
-
-
-#cart-price{
-  display: inline-block;
-  font-size: 25px;
-  border:0.4vw solid orange;
-    margin-left: 50vw;
-      margin-top: 50px;
+  margin-top: 70px;
 }
 
 
 #cart-dis{
-  font-size: 25px;
-  border:0.4vw solid orange;
-    width:180px;
-    color:blue;
-      /* display: inline-block; */
+  font-size: 20px;
+  color:blue;
+    border:0.4vw solid orange;
+   height:70px;
+   /* width:200px; */
+   margin-top: 10px;
+   margin-left: 10px;
+
+   flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 150px;
 }
 
 
 #cart-prize-name{
-  /* display: inline-block; */
-  font-size: 25px;
+  font-size: 20px;
+  color:blue;
+  padding-left: 10px;
   border:0.4vw solid orange;
-    width:340px;
-    color:blue;
+ height:70px;
+ margin-top: 10px;
+ margin-left: 10px;
+ flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 250px;
 }
 
 
-#cart-dis-prize-name{
+#rupee-sign{
+  font-size: 20px;
+  color:blue;
+  margin-left: auto;
+  border:0.4vw solid orange;
+  margin-top: 10px;
+   height:70px;
+
+
+   flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 40px;
+}
+
+
+#cart-price{
+  font-size: 20px;
+  color:blue;
+  border:0.4vw solid orange;
+  margin-top: 10px;
+   height:70px;
+
+
+}
+
+
+
+
+#cart-dis-prize-name-price-btns{
+    border:0.4vw solid orange;
   display: flex;
+  width:60vw;
+  height: 20vh;
+  margin-left: 60px;
+  margin-top: 50px;
 }
 
 
