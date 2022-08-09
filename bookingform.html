@@ -138,8 +138,14 @@
 
 <h1 id="cart-heading"> Cart</h1>
     <div id="cart-dis-prize-name-price-btns">
-      <h1 id="cart-dis"></h1>
-      <h1 id="cart-prize-name"></h1>
+
+      <!-- <div id="cart-dis-prize-name-div"> -->
+        <h1 id="cart-dis"></h1>
+        <h1 id="cart-prize-name"></h1>
+      <!-- </div> -->
+
+
+
       <h1 id="rupee-sign"> Rs </h1>
       <h1 id="cart-price"></h1>
       <button id="btn-minus" onclick="countDec()"> - </button>
@@ -169,7 +175,18 @@
         <input id="pincode" name="pincode" type="text" placeholder="Pincode">
         <input id="city" name="city" type="text" placeholder="City">
         <input id="state" name="state" type="text" placeholder="State">
-        <button id=btnform type="submit" name="button"> Submit</button>
+
+ <br><br><br>
+        <input type="radio" id="upi" name="fav_language" value="HTML">
+          <label id="upi-text" for="upi">UPI - PayTM, GPay, PhonePe etc.</label><br>
+
+<br><br>
+        <input type="radio" id="card" name="fav_language" value="HTML">
+          <label id="card-text" for="card">Pay via Card, Net Banking or Wallet</label><br>
+
+
+
+        <button id="btnform" type="submit" name="button"> Pay Now</button>
       </div>
     </form>
   </div>

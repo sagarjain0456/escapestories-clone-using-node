@@ -5,6 +5,54 @@
   text-decoration: none;
 }
 
+#cart-dis-prize-name-div{
+  display: flex;
+  border:0.4vw solid orange;
+}
+
+
+
+
+
+
+#money-left-side{
+  background-color: yellow;
+  border:0.4vw solid orange;
+}
+
+#upi{
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+
+#card{
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+
+#upi-text{
+background-color: white;
+height:60px;
+width:60px;
+padding:10px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+#card-text{
+background-color: white;
+height:60px;
+width:60px;
+padding:10px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+
 
 
 #total-heading-amount{
@@ -82,7 +130,7 @@ margin-top: 15px;
 #prizemoney-form{
   display:flex;
     border:0.4vw solid orange;
-    height:80vh;
+    height:84vh;
 }
 
 #cart-heading{
@@ -99,7 +147,6 @@ margin-top: 15px;
   color:blue;
     border:0.4vw solid orange;
    height:70px;
-   /* width:200px; */
    margin-top: 10px;
    margin-left: 10px;
 
@@ -156,7 +203,9 @@ flex-basis: 250px;
   display: flex;
   width:60vw;
   height: 20vh;
-  margin-left: 60px;
+  /* margin-left: 60px; */
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
 }
 
@@ -175,7 +224,7 @@ flex-basis: 250px;
 #formdiv{
   border:0.3vw solid orange;
   background-color: pink;
-  height:70vh;
+  height:80vh;
   width:30vw;
   position: absolute;
   right:0vw;
@@ -269,11 +318,19 @@ margin-top: 0.1vw;
   display:block;
   height:3vw;
   font-size: 1.5vw;
-  width:6vw;
-  margin-top: 2vw;
+  width:23vw;
+  margin-top: 30px;
   margin-left: 2vw;
   border-radius: 0.6vw;
   cursor:pointer;
+  color:white;
+  background-color: #1d1160;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding:10px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+
 }
 
 
@@ -3018,6 +3075,51 @@ text-align: center;
   }
 
 
+#total-heading-amount{
+  margin-left: auto;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+
+
+#cart-heading{
+  margin-bottom: 40px;
+}
+
+#cart-dis-prize-name-price-btns{
+  width:90vw;
+  /* margin-top: 30px; */
+}
+
+  #cart-heading{
+    /* color: grey;
+    font-size: 45px;
+    border:0.4vw solid orange;
+    margin-left: 55vw;
+    margin-top: 70px; */
+    color:blue;
+    /* padding-left: 30px; */
+    float:right;
+  }
+
+
+
+
+
+
+
+  #prizemoney-form{
+   flex-direction: column;
+  }
+
+/* #money-left-side{
+  background-color: color;
+} */
+
+
+
+
   #btnform{
     /* display:block; */
     height:4vw;
@@ -3262,11 +3364,10 @@ body{
 }
 
 
-<<<<<<< HEAD
 
 
 
-=======
+
 #btnform{
   /* display:block; */
   height:6vw;
@@ -3277,7 +3378,6 @@ body{
   border-radius: 0.6vw;
   cursor:pointer; */
 }
->>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 
 
 
@@ -4907,6 +5007,39 @@ justify-content: center;
 
 
 
+
+@media only screen and (max-width:650px) {
+
+  #cart-dis{
+    flex-basis: 80px;
+  }
+
+
+
+ #cart-prize-name{
+   flex-basis: 120px;
+ }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:590px) {
 
 #contactu{
@@ -4947,7 +5080,6 @@ justify-content: center;
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -4989,15 +5121,14 @@ border: 0.6vw solid purple; */
 
 
 
-=======
+
 @media only screen and (max-width:480px) {
 
->>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 #contactu{
   font-size: 7vw;
 }
 
-<<<<<<< HEAD
+
 .escapelogostyle{
 
 margin-right: 10vw;
@@ -5008,8 +5139,6 @@ margin-right: 10vw;
 
 
 
-=======
->>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
 
 #btnform{
   /* display:block; */
@@ -5031,8 +5160,23 @@ margin-right: 10vw;
 
 
 
-<<<<<<< HEAD
 @media only screen and (max-width:450px) {
+
+
+
+  #cart-dis{
+    flex-basis: 70px;
+    height:120px;
+  }
+
+
+
+  #cart-prize-name{
+   flex-basis: 100px;
+       height:120px;
+  }
+
+
 
 
 
@@ -5125,6 +5269,39 @@ margin-right: 10vw;
 
 
 
+@media only screen and (max-width:390px){
+
+  #cart-dis{
+    color:purple;
+    flex-basis: 70px;
+    height:220px;
+    /* color:green; */
+  }
+
+
+
+  #cart-prize-name{
+      color:purple;
+   flex-basis: 100px;
+       height:220px;
+  }
+
+
+
+#cart-dis-prize-name-price-btns{
+  height:30vh;
+}
+
+
+
+
+}
+
+
+
+
+
+
 
 
 
@@ -5144,18 +5321,14 @@ margin-right: 10vw;
 
 
 
-
-
-=======
 @media only screen and (max-width:370px) {
 
->>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
+
 #contactu{
   font-size: 9vw;
 }
 
 
-<<<<<<< HEAD
 .escapelogostyle{
   /* border-radius: 100%; */
   /* height:3vw;
@@ -5168,8 +5341,7 @@ margin-left: 0.5vw;
 }
 
 
-=======
->>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
+
 
 #btnform{
 height:14vw;
@@ -5180,7 +5352,7 @@ font-size: 5vw;
 }
 
 }
-<<<<<<< HEAD
+
 
 
 
@@ -5199,5 +5371,5 @@ width:140px;
 margin-left: 0.5vw;
 
 }
-=======
->>>>>>> 5baeec644f8630f502a5012f600664b1ef7fef94
+
+}
