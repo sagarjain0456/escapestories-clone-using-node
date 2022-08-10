@@ -5010,16 +5010,46 @@ justify-content: center;
 
 @media only screen and (max-width:650px) {
 
-  #cart-dis{
-    flex-basis: 80px;
-  }
+
+#cart-dis-prize-name-price-btns{
+  position: relative;
+}
+
+#rupee-sign{
+position: absolute;
+bottom:0px;
+left:10px;
+}
+
+
+#cart-price{
+  position: absolute;
+  bottom:0px;
+  left:40px;
+}
 
 
 
- #cart-prize-name{
-   flex-basis: 120px;
- }
+#btn-minus{
+  position: absolute;
+  bottom:45px;
+  left:70px;
+}
 
+
+#numb-count{
+  position: absolute;
+  bottom:0px;
+  left:100px;
+  height:70px;
+}
+
+
+#btn-plus{
+  position: absolute;
+  bottom:45px;
+  left:110px;
+}
 
 
 }
@@ -5091,6 +5121,64 @@ justify-content: center;
 
 
 
+#cart-heading{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+#cart-dis-prize-name-price-btns{
+  margin-top: 1px;
+}
+
+
+
+#money-left-side{
+  height:100vh;
+}
+
+
+
+#cart-dis-prize-name-price-btns{
+  height:30vh;
+}
+
+#cart-dis{
+  height:40px;
+}
+
+
+#cart-prize-name{
+  position: absolute;
+  top:50px;
+  left:0px;
+  padding-left: 0px;
+  height:40px;
+}
+
+
+#rupee-sign {
+  bottom:50px;
+}
+
+
+#cart-price{
+  bottom:50px;
+}
+
+
+#btn-minus{
+  bottom:95px;
+}
+
+#btn-plus{
+  bottom:95px;
+}
+
+
+#numb-count{
+  bottom:50px;
+}
 
 
   #pedalsboost{
@@ -5164,7 +5252,7 @@ margin-right: 10vw;
 
 
 
-  #cart-dis{
+  /* #cart-dis{
     flex-basis: 70px;
     height:120px;
   }
@@ -5174,7 +5262,7 @@ margin-right: 10vw;
   #cart-prize-name{
    flex-basis: 100px;
        height:120px;
-  }
+  } */
 
 
 
@@ -5269,33 +5357,11 @@ margin-right: 10vw;
 
 
 
-@media only screen and (max-width:390px){
-
-  #cart-dis{
-    color:purple;
-    flex-basis: 70px;
-    height:220px;
-    /* color:green; */
-  }
+/* @media only screen and (max-width:390px){
 
 
 
-  #cart-prize-name{
-      color:purple;
-   flex-basis: 100px;
-       height:220px;
-  }
-
-
-
-#cart-dis-prize-name-price-btns{
-  height:30vh;
-}
-
-
-
-
-}
+} */
 
 
 
