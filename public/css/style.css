@@ -21,13 +21,13 @@
 }
 
 #upi{
-  margin-left: 30px;
+  margin-left: 25px;
   cursor: pointer;
 }
 
 
 #card{
-  margin-left: 30px;
+  margin-left: 25px;
   cursor: pointer;
 }
 
@@ -130,7 +130,8 @@ margin-top: 15px;
 #prizemoney-form{
   display:flex;
     border:0.4vw solid orange;
-    height:84vh;
+    height: 81vh;
+justify-content: space-between;
 }
 
 #cart-heading{
@@ -215,7 +216,7 @@ flex-basis: 250px;
 
 
 #contactu{
-  font-size: 1.5vw;
+  font-size: 22px;
   margin-top: 2vw;
   margin-left: 2vw;
 }
@@ -224,16 +225,17 @@ flex-basis: 250px;
 #formdiv{
   border:0.3vw solid orange;
   background-color: pink;
-  height:80vh;
-  width:30vw;
-  position: absolute;
-  right:0vw;
+  /* height:80vh;
+  width:30vw; */
+  height: 80vh;
+width: 360px;
+  position: relative;
 }
 
 
 #name{
-  width:24vw;
-  height:8vh;
+  width:300px;
+  height:60px;
   display:block;
   background-color: white;
   color:black;
@@ -246,19 +248,22 @@ flex-basis: 250px;
 
 
 #email{
-  width:14vw;
+  width:180px;
+  height:60px;
+
   margin-left: 2vw;
   margin-top: 0.1vw;
   border-radius: 0.3vw;
-    height:8vh;
+
     padding:1vw;
 }
 
 
 #mobile{
-  width:9.5vw;
+  width:115px;
+  height:60px;
   border-radius: 0.3vw;
-    height:8vh;
+
     padding:1vw;
     margin-top: 0.1vw;
 }
@@ -266,20 +271,21 @@ flex-basis: 250px;
 
 #address{
 resize:vertical;
-width:23.7vw;
+width:300px;
+height:60px;
 margin-left: 2vw;
 margin-top: 0.1vw;
   padding:0.4vw;
     border-radius: 0.3vw;
-    height:8vh;
+
 
 
 }
 
 
 #pincode{
-  width:24vw;
-  height:8vh;
+  width:300px;
+  height:60px;
   display:block;
   background-color: white;
   color:black;
@@ -293,11 +299,12 @@ margin-top: 0.1vw;
 
 
 #city{
-  width:14vw;
+  width:150px;
+  height:60px;
   margin-left: 2vw;
 margin-top: 0.1vw;
   border-radius: 0.3vw;
-    height:8vh;
+
     padding:1vw;
 
 }
@@ -305,26 +312,29 @@ margin-top: 0.1vw;
 
 
 #state{
-  width:9.5vw;
+  width:150px;
+  height:60px;
   border-radius: 0.3vw;
-    height:8vh;
+
     padding:1vw;
       margin-top: 0.1vw;
 }
 
 
 
-#btnform{
+#btn-paynow{
   display:block;
-  height:3vw;
-  font-size: 1.5vw;
-  width:23vw;
+  height:10%;
+  font-size: 25px;
+  /* width:23vw; */
+  width:90%;
   margin-top: 30px;
   margin-left: 2vw;
   border-radius: 0.6vw;
   cursor:pointer;
   color:white;
-  background-color: #1d1160;
+  /* background-color: #1d1160; */
+  background-color: red;
   margin-left: auto;
   margin-right: auto;
   /* padding:10px; */
@@ -3075,6 +3085,17 @@ text-align: center;
   }
 
 
+#upi{
+  margin-left: 20px;
+}
+
+
+#card{
+  margin-left: 20px;
+}
+
+
+
 #total-heading-amount{
   margin-left: auto;
   margin-right: 100px;
@@ -5094,7 +5115,7 @@ left:10px;
 #formdiv{
   /* border:0.3vw solid orange; */
   /* background-color: pink; */
-  height:64vh;
+  height:75vh;
   /* width:30vw;
   position: relative;
   margin-left: 5vw;
