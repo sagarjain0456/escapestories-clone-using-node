@@ -73,7 +73,7 @@ cursor: pointer;
 
 #total-money{
   color:red;
-  padding-left: 80px;
+  padding-left: 5px;
 }
 
 
@@ -186,6 +186,12 @@ flex-basis: 250px;
 }
 
 
+
+#total-rupee-sign{
+ color: red;
+ padding-left: 40px;
+}
+
 #cart-price{
   font-size: 20px;
   color:blue;
@@ -217,8 +223,8 @@ flex-basis: 250px;
 
 #contactu{
   font-size: 22px;
-  margin-top: 2vw;
-  margin-left: 2vw;
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 
@@ -227,7 +233,7 @@ flex-basis: 250px;
   background-color: pink;
   /* height:80vh;
   width:30vw; */
-  height: 80vh;
+  height: auto;
 width: 360px;
   position: relative;
 }
@@ -239,10 +245,10 @@ width: 360px;
   display:block;
   background-color: white;
   color:black;
-  margin-left: 2vw;
-  border-radius: 0.3vw;
-  padding:1vw;
-  margin-top: 1vw;
+  margin-left: 25px;
+  border-radius: 5px;
+  padding:10px;
+  margin-top: 1px;
 }
 
 
@@ -251,32 +257,33 @@ width: 360px;
   width:180px;
   height:60px;
 
-  margin-left: 2vw;
-  margin-top: 0.1vw;
-  border-radius: 0.3vw;
+  margin-left: 25px;
+  margin-top: 1px;
+  border-radius: 5px;
 
-    padding:1vw;
+    padding:10px;
 }
 
 
 #mobile{
   width:115px;
   height:60px;
-  border-radius: 0.3vw;
+  border-radius: 5px;
 
-    padding:1vw;
-    margin-top: 0.1vw;
+    padding:10px;
+    margin-top: 1px;
 }
 
 
 #address{
 resize:vertical;
+/* overflow: scroll; */
 width:300px;
 height:60px;
-margin-left: 2vw;
-margin-top: 0.1vw;
-  padding:0.4vw;
-    border-radius: 0.3vw;
+margin-left: 25px;
+margin-top: 1px;
+  padding:10px;
+    border-radius: 5px;
 
 
 
@@ -289,10 +296,10 @@ margin-top: 0.1vw;
   display:block;
   background-color: white;
   color:black;
-  margin-left: 2vw;
-  border-radius: 0.3vw;
-  padding:1vw;
-  margin-top: -0.2vw;
+  margin-left: 25px;
+  border-radius: 5px;
+  padding:10px;
+  margin-top: -4px;
 
 }
 
@@ -301,11 +308,11 @@ margin-top: 0.1vw;
 #city{
   width:150px;
   height:60px;
-  margin-left: 2vw;
-margin-top: 0.1vw;
-  border-radius: 0.3vw;
+  margin-left: 25px;
+margin-top: 1px;
+  border-radius: 5px;
 
-    padding:1vw;
+    padding:10px;
 
 }
 
@@ -314,10 +321,10 @@ margin-top: 0.1vw;
 #state{
   width:150px;
   height:60px;
-  border-radius: 0.3vw;
+  border-radius: 5px;
 
-    padding:1vw;
-      margin-top: 0.1vw;
+    padding:10px;
+      margin-top: 1px;
 }
 
 
@@ -328,15 +335,17 @@ margin-top: 0.1vw;
   font-size: 25px;
   /* width:23vw; */
   width:90%;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 2vw;
-  border-radius: 0.6vw;
+  border-radius: 5px;
   cursor:pointer;
   color:white;
   /* background-color: #1d1160; */
   background-color: red;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  padding:10px;
   /* padding:10px; */
   /* padding-top: 20px; */
   /* padding-bottom: 20px; */
@@ -3199,7 +3208,7 @@ text-align: center;
 
 
   #mobile{
-    width:30vw;
+    width:29.5vw;
     /* border-radius: 0.3vw;
       height:8vh;
       padding:1vw;
@@ -3252,7 +3261,7 @@ text-align: center;
 
 
   #state{
-    width:30vw;
+    width:29.5vw;
     /* border-radius: 0.3vw;
       height:8vh;
       padding:1vw;
@@ -5115,7 +5124,7 @@ left:10px;
 #formdiv{
   /* border:0.3vw solid orange; */
   /* background-color: pink; */
-  height:75vh;
+  height:auto;
   /* width:30vw;
   position: relative;
   margin-left: 5vw;
@@ -5378,11 +5387,33 @@ margin-right: 10vw;
 
 
 
-/* @media only screen and (max-width:390px){
+@media only screen and (max-width:390px){
+
+#name{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#email{
+  margin-left: 5vw;
+}
 
 
+#address{
+  margin-left: 5vw;
+}
 
-} */
+#pincode{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+#city{
+  margin-left: 5vw;
+}
+
+}
 
 
 
@@ -5412,7 +5443,7 @@ margin-right: 10vw;
 
 
 #contactu{
-  font-size: 9vw;
+  font-size: 7vw;
 }
 
 
