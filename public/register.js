@@ -11,10 +11,8 @@ function menuBars() {
     document.getElementById('bar2').style.backgroundColor = 'black';
     document.getElementById('cart').style.opacity = '1';
     document.getElementById('cart').style.transition = '0.1s ';
-
-
-  } else {
-
+  }
+  else {
     document.getElementById('bar1').style.transform = 'rotate(45deg)';
     document.getElementById('bar1').style.top = '22px';
     document.getElementById('bar1').style.left = '20px';
@@ -24,9 +22,7 @@ function menuBars() {
     document.getElementById('bar2').style.top = '22px';
     document.getElementById('bar2').style.left = '20px';
     document.getElementById('navitems').style.left = '0';
-
     document.getElementById('navitems').style.transition = 'all 0.3s ease';
-
     document.getElementById('cart').style.transition = '0.8s ';
     document.getElementById('cart').style.opacity = '0';
   }
@@ -41,7 +37,8 @@ function pedalsPowerDropdown() {
     document.getElementById("community").style.top = "445px";
     document.getElementById("find").style.top = "500px";
     document.getElementById("pedalsitems").style.visibility = "hidden";
-  } else {
+  }
+  else {
     document.getElementById("upcome").style.top = "450px";
     document.getElementById("past").style.top = "500px";
     document.getElementById("trek").style.top = "550px";
@@ -56,22 +53,16 @@ function pedalsPowerDropdown() {
 }
 
 
-
 function upcomingEventsDropdown() {
-
   if (document.getElementById("checkbox3").checked) {
-
-
     document.getElementById("past").style.top = "345px";
     document.getElementById("trek").style.top = "395px";
     document.getElementById("community").style.top = "450px";
     document.getElementById("find").style.top = "500px";
     document.getElementById("upcomingitems").style.visibility = "hidden";
-  } else {
-
-
+  }
+  else {
     if (document.getElementById("checkbox2").checked) {
-
       document.getElementById("upcome").style.top = "290px";
       document.getElementById("past").style.top = "345px";
       document.getElementById("trek").style.top = "395px";
@@ -79,7 +70,6 @@ function upcomingEventsDropdown() {
       document.getElementById("find").style.top = "500px";
       document.getElementById("pedalsitems").style.visibility = "hidden";
     }
-
     document.getElementById("past").style.top = "400px";
     document.getElementById("trek").style.top = "450px";
     document.getElementById("community").style.top = "500px";
@@ -99,15 +89,16 @@ function pastEventsDropdown() {
     document.getElementById("community").style.top = "445px";
     document.getElementById("find").style.top = "500px";
     document.getElementById("pastitems").style.visibility = "hidden";
-  } else {
-
+  }
+  else {
     if (document.getElementById("checkbox3").checked) {
       document.getElementById("past").style.top = "345px";
       document.getElementById("trek").style.top = "395px";
       document.getElementById("community").style.top = "450px";
       document.getElementById("find").style.top = "500px";
       document.getElementById("upcomingitems").style.visibility = "hidden";
-    } else if (document.getElementById("checkbox2").checked) {
+    }
+    else if (document.getElementById("checkbox2").checked) {
       document.getElementById("upcome").style.top = "290px";
       document.getElementById("past").style.top = "345px";
       document.getElementById("trek").style.top = "395px";
@@ -115,7 +106,6 @@ function pastEventsDropdown() {
       document.getElementById("find").style.top = "500px";
       document.getElementById("pedalsitems").style.visibility = "hidden";
     }
-
     document.getElementById("trek").style.top = "860px";
     document.getElementById("community").style.top = "900px";
     document.getElementById("find").style.top = "950px";
@@ -126,6 +116,7 @@ function pastEventsDropdown() {
     document.getElementById("pastitems").style.visibility = "visible";
   }
 }
+
 
 function trekDropdown() {
   if (document.getElementById("checkbox5").checked) {
@@ -139,8 +130,6 @@ function trekDropdown() {
       document.getElementById("find").style.top = "500px";
       document.getElementById("pastitems").style.visibility = "hidden";
     }
-
-
     if (document.getElementById("checkbox3").checked) {
       document.getElementById("past").style.top = "345px";
       document.getElementById("trek").style.top = "395px";
@@ -148,7 +137,6 @@ function trekDropdown() {
       document.getElementById("find").style.top = "500px";
       document.getElementById("upcomingitems").style.visibility = "hidden";
     }
-
     if (document.getElementById("checkbox2").checked) {
       document.getElementById("upcome").style.top = "290px";
       document.getElementById("past").style.top = "345px";
@@ -157,7 +145,6 @@ function trekDropdown() {
       document.getElementById("find").style.top = "500px";
       document.getElementById("pedalsitems").style.visibility = "hidden";
     }
-
     document.getElementById("community").style.top = "800px";
     document.getElementById("find").style.top = "850px";
     document.getElementById("treksitems").style.backgroundColor = "pink";
@@ -173,16 +160,13 @@ function communityDropdown() {
   if (document.getElementById("checkbox6").checked) {
     document.getElementById("find").style.top = "500px";
     document.getElementById("joinusbtn").style.visibility = "hidden";
-  } else {
-
+  }
+  else {
     if (document.getElementById("checkbox5").checked) {
-
       document.getElementById("community").style.top = "445px";
       document.getElementById("find").style.top = "500px";
       document.getElementById("treksitems").style.visibility = "hidden";
     }
-
-
     if (document.getElementById("checkbox2").checked) {
       document.getElementById("upcome").style.top = "290px";
       document.getElementById("past").style.top = "345px";
@@ -191,37 +175,20 @@ function communityDropdown() {
       document.getElementById("find").style.top = "500px";
       document.getElementById("pedalsitems").style.visibility = "hidden";
     }
-
-
-    if (document.getElementById("checkbox3").checked) {
+    if(document.getElementById("checkbox3").checked) {
       document.getElementById("past").style.top = "345px";
       document.getElementById("trek").style.top = "395px";
       document.getElementById("community").style.top = "450px";
       document.getElementById("find").style.top = "500px";
-      // console.log("not checked")
       document.getElementById("upcomingitems").style.visibility = "hidden";
-
-
     }
-
-
-
     if (document.getElementById("checkbox4").checked) {
-
       document.getElementById("trek").style.top = "395px";
       document.getElementById("community").style.top = "445px";
       document.getElementById("find").style.top = "500px";
-      // console.log("not checked")
       document.getElementById("pastitems").style.visibility = "hidden";
-
     }
-
-
-
-
-
     document.getElementById("find").style.top = "550px";
-    // console.log("checked now");
     document.getElementById("joinusbtn").style.backgroundColor = "pink";
     document.getElementById("joinusbtn").style.top = "480px";
     document.getElementById("joinusbtn").style.left = "0px";
@@ -245,12 +212,11 @@ function disPri() {
   return;
 }
 
+
 document.getElementById("cart-price").innerHTML = localStorage.getItem("PRICE");
-
 document.getElementById("cart-dis").innerHTML = localStorage.getItem("DISTANCE");
-
-
 var a = localStorage.getItem("PRICE");
+
 if (a == "499") {
   console.log("499 selected");
   document.getElementById("cart-prize-name").innerHTML = "T-shirt and E-certificate";
@@ -263,40 +229,33 @@ if (a == "499") {
 }
 
 
-
-var countvariable=1;
+var countvariable = 1;
 document.getElementById('numb-count').innerHTML = countvariable;
-
-document.getElementById("total-money").innerHTML = parseInt(a) ;
-
+document.getElementById("total-money").innerHTML = parseInt(a);
 
 
-function countInc(){
-document.getElementById('numb-count').innerHTML = ++countvariable;
-changeTotal();
+function countInc() {
+  document.getElementById('numb-count').innerHTML = ++countvariable;
+  changeTotal();
 }
 
 
-function countDec(){
-document.getElementById('numb-count').innerHTML = --countvariable;
-changeTotal();
+function countDec() {
+  document.getElementById('numb-count').innerHTML = --countvariable;
+  changeTotal();
 }
 
 
-function changeTotal(){
+function changeTotal() {
   document.getElementById("total-money").innerHTML = parseInt(a) * countvariable;
 }
 
 
-
-
 let slideIndex = 0;
 showSlides();
-
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  // let dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -304,16 +263,10 @@ function showSlides() {
   if (slideIndex > slides.length) {
     slideIndex = 1
   }
-  // for (i = 0; i < dots.length; i++) {
-  //   dots[i].className = dots[i].className.replace(" active", "");
-  // }
   slides[slideIndex - 1].style.display = "block";
-  // dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
 
-
 document.getElementById("cartprice").innerHTML = localStorage.getItem("PRICE");
-
 document.getElementById("cartdis").innerHTML = localStorage.getItem("DISTANCE");
