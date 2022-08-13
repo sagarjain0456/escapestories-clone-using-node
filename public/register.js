@@ -1,4 +1,4 @@
-function myFunction() {
+function menuBars() {
   if (document.getElementById("my-checkbox").checked) {
     document.getElementById('bar1').style.transform = 'rotate(0deg)';
     document.getElementById('bar1').style.top = '20px';
@@ -33,7 +33,7 @@ function myFunction() {
 }
 
 
-function myfunction2() {
+function pedalsPowerDropdown() {
   if (document.getElementById("checkbox2").checked) {
     document.getElementById("upcome").style.top = "290px";
     document.getElementById("past").style.top = "345px";
@@ -57,7 +57,7 @@ function myfunction2() {
 
 
 
-function myfunction3() {
+function upcomingEventsDropdown() {
 
   if (document.getElementById("checkbox3").checked) {
 
@@ -93,7 +93,7 @@ function myfunction3() {
 }
 
 
-function myfunction4() {
+function pastEventsDropdown() {
   if (document.getElementById("checkbox4").checked) {
     document.getElementById("trek").style.top = "395px";
     document.getElementById("community").style.top = "445px";
@@ -127,7 +127,7 @@ function myfunction4() {
   }
 }
 
-function myfunction5() {
+function trekDropdown() {
   if (document.getElementById("checkbox5").checked) {
     document.getElementById("community").style.top = "445px";
     document.getElementById("find").style.top = "500px";
@@ -169,7 +169,7 @@ function myfunction5() {
 }
 
 
-function myfunction6() {
+function communityDropdown() {
   if (document.getElementById("checkbox6").checked) {
     document.getElementById("find").style.top = "500px";
     document.getElementById("joinusbtn").style.visibility = "hidden";

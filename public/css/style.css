@@ -5,6 +5,26 @@
   text-decoration: none;
 }
 
+
+#register-rupee-sign-actual-price{
+  display: flex;
+  justify-content: center;
+  /* border: 0.4vw solid orange; */
+  /* width:20vw; */
+  /* font-size: 52px; */
+}
+
+
+#register-rupee-sign{
+  font-size: 52px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
 #cart-dis-prize-name-div{
   display: flex;
   border:0.4vw solid orange;
@@ -1767,6 +1787,7 @@ margin-left: 1vw;
   width:7vw;
   margin-left: 3vw;
   margin-top: 3vw;
+  cursor: pointer;
  }
 /* ending of the second poster and text   */
 
@@ -2002,6 +2023,7 @@ margin-left: 1vw;
   padding-left: 1.2vw;
   padding-right: 1.2vw;
   font-size: 1vw;
+  cursor: pointer;
 
 }
 /* ending of the poster 3 */
@@ -2902,7 +2924,7 @@ text-align: center;
 #prize-category{
   padding:10px;
   border-radius: 10px;
-  margin-left: 20px;
+  margin-left: 0px;
     font-size: 20px;
 }
 
