@@ -2,9 +2,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
-const strava = require('strava-v3');
-
-// const payload = strava.athlete.get({'access_token':'8ef55ed289e0dd4c1724c5023ef2aa02b9d065ec'}).then(console.log);
+// const strava = require('strava-v3');
+//
+// const payload = strava.activities.get({'access_token':'11a6eaa520f184e8c8bfb4358e1eb9d8c644445a '}).then(console.log);
+// const payload = strava.athelete.get({'access_token':'8ef55ed289e0dd4c1724c5023ef2aa02b9d065ec'}).then(console.log);
 
 
 
@@ -30,12 +31,12 @@ const bookingSchema = mongoose.Schema({
 });
 
 
-
-const accessTokenSchema = mongoose.Schema({
-  accessToken: Object
-});
-
-const accessTokenModel = mongoose.model("accesstokenCollection", accessTokenSchema);// collection name, schema name
+//
+// const accessTokenSchema = mongoose.Schema({
+//   accessToken: Object
+// });
+//
+// const accessTokenModel = mongoose.model("accesstokenCollection", accessTokenSchema);// collection name, schema name
 
 
 
@@ -69,19 +70,19 @@ app.use(bodyParser.urlencoded({
 
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
-  const accesstoken = (req.query);
-
-  const newAccessToken = new accessTokenModel({
-    accessToken: accesstoken,
-  });
-
-
-  newAccessToken.save(function(err) {
-    console.log(newAccessToken.save);
-    if (err) {
-      console.log(err);
-    }
-  });
+  // const accesstoken = (req.query);
+  //
+  // const newAccessToken = new accessTokenModel({
+  //   accessToken: accesstoken,
+  // });
+  //
+  //
+  // newAccessToken.save(function(err) {
+  //   console.log(newAccessToken.save);
+  //   if (err) {
+  //     console.log(err);
+  //   }
+  // });
 });
 
 
