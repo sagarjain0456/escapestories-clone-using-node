@@ -2,7 +2,11 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
+<<<<<<< HEAD
 // const strava = require('strava-v3');
+=======
+
+>>>>>>> 61f411ee875997b2b5efed7d5e1155bd9c072cd4
 
 // const payload = strava.activities.get({'access_token':'825adde512a3db4af27d97f0e20f58135220a01f'}).then(console.log);
 // const payload = strava.atheletes.get({'access_token':'825adde512a3db4af27d97f0e20f58135220a01f'}).then(console.log);
