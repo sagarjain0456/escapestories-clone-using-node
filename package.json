@@ -25,6 +25,10 @@
     "mongoose": "^6.4.6",
     "nodemon": "^2.0.19",
     "strava": "^1.4.0",
-    "strava-v3": "^2.1.0"
+    "strava-v3": "^2.1.0",
+    "stripe": "^10.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
   }
 }

@@ -2,13 +2,26 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
-const strava = require('strava-v3');
+// const strava = require('strava-v3');
 
-// const payload = strava.athlete.get({'access_token':'8ef55ed289e0dd4c1724c5023ef2aa02b9d065ec'}).then(console.log);
+// const payload = strava.activities.get({'access_token':'825adde512a3db4af27d97f0e20f58135220a01f'}).then(console.log);
+// const payload = strava.atheletes.get({'access_token':'825adde512a3db4af27d97f0e20f58135220a01f'}).then(console.log);
 
+// const strava = require('strava-v3')
+// strava.config({
+//   "access_token"  : "825adde512a3db4af27d97f0e20f58135220a01f",
+//   "client_id"     : "90071",
+//   "client_secret" : "bfd6a6aab940f7e966af0915034dffb9fcfeae44 ",
+//   "redirect_uri"  : "https://peaceful-dawn-18754.herokuapp.com/",
+// });
+// const payload =  strava.athlete.get({})
+// console.log(payload)
 
-
-
+// var strava = require('strava-v3');
+// strava.athletes.get({id:90071},function(err,payload,limits) {
+//   console.log(err);
+//     //do something with your payload, track rate limits
+// });
 
 
 
@@ -30,12 +43,12 @@ const bookingSchema = mongoose.Schema({
 });
 
 
-
-const accessTokenSchema = mongoose.Schema({
-  accessToken: Object
-});
-
-const accessTokenModel = mongoose.model("accesstokenCollection", accessTokenSchema);// collection name, schema name
+//
+// const accessTokenSchema = mongoose.Schema({
+//   accessToken: Object
+// });
+//
+// const accessTokenModel = mongoose.model("accesstokenCollection", accessTokenSchema);// collection name, schema name
 
 
 
@@ -69,19 +82,19 @@ app.use(bodyParser.urlencoded({
 
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
-  const accesstoken = (req.query);
-
-  const newAccessToken = new accessTokenModel({
-    accessToken: accesstoken,
-  });
-
-
-  newAccessToken.save(function(err) {
-    console.log(newAccessToken.save);
-    if (err) {
-      console.log(err);
-    }
-  });
+  // const accesstoken = (req.query);
+  //
+  // const newAccessToken = new accessTokenModel({
+  //   accessToken: accesstoken,
+  // });
+  //
+  //
+  // newAccessToken.save(function(err) {
+  //   console.log(newAccessToken.save);
+  //   if (err) {
+  //     console.log(err);
+  //   }
+  // });
 });
 
 
