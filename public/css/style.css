@@ -27,7 +27,7 @@
 
 #cart-dis-prize-name-div{
   display: flex;
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
 }
 
 
@@ -37,7 +37,7 @@
 
 #money-left-side{
   background-color: yellow;
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
 }
 
 #upi{
@@ -78,7 +78,7 @@ cursor: pointer;
 #total-heading-amount{
   display: flex;
   font-size: 12px;
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   width:190px;
   margin-left: 40vw;
   margin-top: 70px;
@@ -149,7 +149,7 @@ margin-top: 15px;
 
 #prizemoney-form{
   display:flex;
-    border:0.4vw solid orange;
+/*     border:0.4vw solid orange; */
     height: 85vh;
 justify-content: space-between;
 }
@@ -181,7 +181,7 @@ justify-content: space-between;
   font-size: 20px;
   color:blue;
   padding-left: 10px;
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
  height:70px;
  margin-top: 10px;
  margin-left: 10px;
@@ -195,7 +195,7 @@ flex-basis: 250px;
   font-size: 20px;
   color:blue;
   margin-left: auto;
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   margin-top: 10px;
    height:70px;
 
@@ -215,7 +215,7 @@ flex-basis: 250px;
 #cart-price{
   font-size: 20px;
   color:blue;
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   margin-top: 10px;
    height:70px;
 
@@ -226,7 +226,7 @@ flex-basis: 250px;
 
 
 #cart-dis-prize-name-price-btns{
-    border:0.4vw solid orange;
+/*     border:0.4vw solid orange; */
   display: flex;
   width:60vw;
   height: 20vh;
@@ -249,7 +249,7 @@ flex-basis: 250px;
 
 
 #formdiv{
-  border:0.3vw solid orange;
+/*   border:0.3vw solid orange; */
   background-color: pink;
   /* height:80vh;
   width:30vw; */
