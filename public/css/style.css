@@ -2905,7 +2905,7 @@ text-align: center;
 
 #regidrops{
   display: flex;
-  border:0.5vw solid orange;
+/*   border:0.5vw solid orange; */
   /* padding-left: 37vw; */
   justify-content: center;
   margin-top: 40px;
@@ -2959,7 +2959,7 @@ text-align: center;
 
 
 #regili1{
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   width:35vw;
   font-size: 20px;
     margin-left: 12vw;
@@ -2970,7 +2970,7 @@ text-align: center;
 
 
 #regili2{
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   width:38vw;
   font-size: 20px;
     margin-left: 12vw;
@@ -2981,7 +2981,7 @@ text-align: center;
 
 
 #regidescright{
-  border:0.6vw solid orange;
+/*   border:0.6vw solid orange; */
   margin-left: 10vw;
   width:35vw;
   /* height:40vw; */
@@ -2998,7 +2998,7 @@ text-align: center;
 
 
 #regdescripara{
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   width:34vw;
   font-size: 20px;
     /* margin-left: 12vw; */
@@ -3010,7 +3010,7 @@ text-align: center;
 
 
 #regdesrili1{
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   width:30vw;
   font-size: 20px;
     margin-left: 14px;
@@ -3022,7 +3022,7 @@ text-align: center;
 
 
 #regdesrili2{
-  border:0.4vw solid orange;
+/*   border:0.4vw solid orange; */
   width:30vw;
   font-size: 20px;
     margin-left: 14px;
